@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\bkmemo\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\bkmemo\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\sample\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\sample\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\JackReacher\\Desktop\\material-sheet-fab\\sample\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\JackReacher\\Desktop\\material-sheet-fab\\sample\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    }
+]

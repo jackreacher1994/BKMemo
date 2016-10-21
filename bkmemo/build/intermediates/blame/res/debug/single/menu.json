@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\bkmemo\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\bkmemo\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\JackReacher\\Desktop\\material-sheet-fab\\sample\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\JackReacher\\Desktop\\material-sheet-fab\\sample\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\sample\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\sample\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\bkmemo\\build\\intermediates\\res\\merged\\debug\\menu\\menu_group.xml",
+        "source": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\bkmemo\\src\\main\\res\\menu\\menu_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\bkmemo\\build\\intermediates\\res\\merged\\debug\\menu\\menu_drawer.xml",
+        "source": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\bkmemo\\src\\main\\res\\menu\\menu_drawer.xml"
+    }
+]
