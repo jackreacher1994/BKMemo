@@ -180,16 +180,16 @@
         "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_bar_up_container.xml"
     },
     {
         "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_bar_up_container.xml"
+        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/layout/fragment_intro.xml",
@@ -260,12 +260,12 @@
         "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/layout/progress_indicator.xml",
-        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/progress_indicator.xml"
-    },
-    {
         "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/layout/activity_add_event.xml",
         "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/res/layout/activity_add_event.xml"
+    },
+    {
+        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/layout/progress_indicator.xml",
+        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/progress_indicator.xml"
     },
     {
         "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
@@ -304,12 +304,12 @@
         "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/res/layout/list_item_group.xml"
     },
     {
-        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/layout/intro1.xml",
-        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/res/layout/intro1.xml"
-    },
-    {
         "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/layout/fragment_intro_content.xml",
         "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/fragment_intro_content.xml"
+    },
+    {
+        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/layout/intro1.xml",
+        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/res/layout/intro1.xml"
     },
     {
         "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",

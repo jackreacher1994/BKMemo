@@ -211,7 +211,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 	 */
 	private void updatePage(int selectedPage) {
 		updateFab(selectedPage);
-		updateSnackbar(selectedPage);
 	}
 
 	/**
@@ -227,24 +226,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 			break;
 		case MainPagerAdapter.EVENT_POS:
 			fab2.setVisibility(View.VISIBLE);
-		default:
 			materialSheetFab.hideSheetThenFab();
 			break;
-		}
-	}
-
-	/**
-	 * Updates the snackbar based on the selected page
-	 *
-	 * @param selectedPage selected page
-	 */
-	private void updateSnackbar(int selectedPage) {
-		switch (selectedPage) {
-		case MainPagerAdapter.PLACE_POS:
-
-		case MainPagerAdapter.EVENT_POS:
-
 		default:
+			//materialSheetFab.hideSheetThenFab();
 			break;
 		}
 	}
@@ -265,14 +250,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 		if(v.getId()==R.id.fab_sheet_item_location_auto) {
 			Intent intent = new Intent(v.getContext(), PlaceAddActivity.class);
 			startActivity(intent);
+			materialSheetFab.hideSheet();
 		} else if(v.getId()==R.id.fab2) {
 			Intent intent = new Intent(v.getContext(), EventAddActivity.class);
 			startActivity(intent);
 		} else if(v.getId()==R.id.fab_sheet_item_location_hand) {
 			Intent intent = new Intent(v.getContext(), MapActivity.class);
 			startActivity(intent);
+			materialSheetFab.hideSheet();
 		}
-		materialSheetFab.hideSheet();
 	}
 
 	@Override

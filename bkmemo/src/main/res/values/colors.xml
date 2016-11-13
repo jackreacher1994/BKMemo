@@ -4,7 +4,7 @@
     <color name="theme_primary">#00BCD4</color>
     <color name="theme_primary_dark">#0097A7</color>
     <color name="theme_primary_dark2">#006064</color>
-    <color name="theme_accent">#FFEB3B</color>
+    <color name="theme_accent">#689f38</color>
 
     <color name="background_card">#fff</color>
     <color name="background_snackbar">#323232</color>
@@ -30,7 +30,7 @@
     </array>
 
     <array name="group_colors">
-        <item>#689f38</item>
+        <item>#9f8c38</item>
     </array>
 
     <array name="place_colors">

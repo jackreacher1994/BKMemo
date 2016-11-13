@@ -168,10 +168,10 @@ public class PlaceAddActivity extends AppCompatActivity implements View.OnClickL
         buildGoogleApiClient();
 
         Intent intent = getIntent();
-        if(intent == null){
+        Bundle bundle = intent.getBundleExtra("bundle");
+        if(bundle == null){
             fetchAddressButtonHandler();
         } else {
-            Bundle bundle = intent.getBundleExtra("bundle");
             mLatitude = bundle.getDouble("latitude");
             mLongitude = bundle.getDouble("longitude");
             mAddressOutput = bundle.getString("address");
@@ -221,12 +221,13 @@ public class PlaceAddActivity extends AppCompatActivity implements View.OnClickL
 
     // On clicking the save button
     public void savePlace(){
-        MyDatabase mDatabase = new MyDatabase(this);
-
         // Creating Place
         int ID = mDatabase.addPlace(new Place(mName, mDescription, String.valueOf(mLatitude), String.valueOf(mLongitude), mAddressOutput, mGroupId));
 
-        onBackPressed();
+        //onBackPressed();
+        Intent i = new Intent(this, MainActivity.class);
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
     }
 
     // On pressing the back button
@@ -383,13 +384,10 @@ public class PlaceAddActivity extends AppCompatActivity implements View.OnClickL
      * Toggles the visibility of the progress bar. Enables or disables the Fetch Address button.
      */
     private void updateUIWidgets() {
-        if (mAddressRequested) {
+        if (mAddressRequested)
             mProgressbar.setVisibility(ProgressBar.VISIBLE);
-            //mFetchAddressButton.setEnabled(false);
-        } else {
+        else
             mProgressbar.setVisibility(ProgressBar.GONE);
-            //mFetchAddressButton.setEnabled(true);
-        }
     }
 
     /**

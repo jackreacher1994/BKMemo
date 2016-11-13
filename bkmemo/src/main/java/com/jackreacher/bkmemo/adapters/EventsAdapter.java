@@ -51,11 +51,13 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.ViewHolder
         holder.nameTextView.setText(name);
         holder.descriptionTextView.setText(description);
         holder.addressTextView.setText(address);
+        holder.timeTextView.setText(time);
 
         // Set visibilities
         holder.nameTextView.setVisibility(TextUtils.isEmpty(name) ? View.GONE : View.VISIBLE);
         holder.descriptionTextView.setVisibility(TextUtils.isEmpty(description) ? View.GONE : View.VISIBLE);
         holder.addressTextView.setVisibility(TextUtils.isEmpty(address) ? View.GONE : View.VISIBLE);
+        holder.timeTextView.setVisibility(TextUtils.isEmpty(time) ? View.GONE : View.VISIBLE);
 
         // Set padding
         int paddingTop = (holder.nameTextView.getVisibility() != View.VISIBLE) ? 0
@@ -88,12 +90,14 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.ViewHolder
         public TextView nameTextView;
         public TextView descriptionTextView;
         public TextView addressTextView;
+        public TextView timeTextView;
 
         public ViewHolder(View itemView) {
             super(itemView);
             nameTextView = (TextView) itemView.findViewById(R.id.event_name);
             descriptionTextView = (TextView) itemView.findViewById(R.id.event_description);
             addressTextView = (TextView) itemView.findViewById(R.id.event_address);
+            timeTextView = (TextView) itemView.findViewById(R.id.event_time);
         }
     }
 

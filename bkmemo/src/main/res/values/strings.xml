@@ -26,6 +26,9 @@
     <string name="action_draw">Xem trên bản đồ</string>
     <string name="place">Địa điểm</string>chọn
     <string name="event">Cuộc hẹn</string>
+    <string name="date">Ngày</string>
+    <string name="time">Giờ</string>
+    <string name="alarm">Báo thức</string>
     <string name="empty_list">Nhấn vào nút cộng để bắt đầu thêm mục mới</string>
     <string name="title_activity_add_place">Thêm địa điểm</string>
     <string name="title_activity_add_event">Thêm cuộc hẹn</string>
@@ -40,6 +43,8 @@
     <string name="place_group">Nhóm địa điểm</string>
     <string name="group">Nhóm</string>
     <string name="no_select_item">Chưa chọn mục nào</string>
+    <string name="select_date_event">Chọn ngày hẹn</string>
+    <string name="select_time_event">Chọn giờ hẹn</string>
     <string name="item_existed">Đã có mục này</string>
     <string name="location_auto">Địa điểm hiện tại</string>
     <string name="location_hand">Địa điểm nhập</string>

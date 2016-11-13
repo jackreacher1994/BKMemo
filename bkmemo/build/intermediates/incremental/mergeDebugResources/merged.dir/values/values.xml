@@ -4,7 +4,7 @@
         <item>#FD7044</item>
     </array>
     <array name="group_colors">
-        <item>#689f38</item>
+        <item>#9f8c38</item>
     </array>
     <array name="note_accent_colors">
         <item>#039BE5</item>
@@ -123,7 +123,7 @@
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="text_black_87">#de000000</color>
     <color name="text_white_87">#deFFFFFF</color>
-    <color name="theme_accent">#FFEB3B</color>
+    <color name="theme_accent">#689f38</color>
     <color name="theme_primary">#00BCD4</color>
     <color name="theme_primary_dark">#0097A7</color>
     <color name="theme_primary_dark2">#006064</color>
@@ -730,6 +730,7 @@
     <string name="action_select_all">Tất cả</string>
     <string name="action_setting">Cài đặt</string>
     <string name="address_found">Address found</string>
+    <string name="alarm">Báo thức</string>
     <string name="app_intro">App Intro</string>
     <string name="app_name">BKMemo</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
@@ -775,6 +776,7 @@
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
     <string name="create_calendar_title">Create calendar event</string>
+    <string name="date">Ngày</string>
     <string name="decline">Decline</string>
     <string name="default_group">Chung</string>
     <string name="define_appintro"/>
@@ -824,6 +826,8 @@
     <string name="place_group">Nhóm địa điểm</string>
     <string name="required_field">Không được để trống trường này</string>
     <string name="search_menu_title">Search</string>
+    <string name="select_date_event">Chọn ngày hẹn</string>
+    <string name="select_time_event">Chọn giờ hẹn</string>
     <string name="selected_count">%1$s mục đã chọn</string>
     <string name="service_not_available">Sorry, the service is not available</string>
     <string name="skip_button">SKIP</string>
@@ -838,6 +842,7 @@
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
     <string name="store_picture_title">Save image</string>
+    <string name="time">Giờ</string>
     <string name="title_activity_add_event">Thêm cuộc hẹn</string>
     <string name="title_activity_add_place">Thêm địa điểm</string>
     <string name="title_activity_edit_event">Sửa cuộc hẹn</string>

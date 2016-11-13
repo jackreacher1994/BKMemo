@@ -1,6 +1,7 @@
 package com.jackreacher.bkmemo;
 
 import android.Manifest;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Address;
@@ -10,6 +11,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.text.TextUtils;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -32,6 +34,7 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
     private double longitude;
     private String addressOutput;
     private ImageButton btContinue;
+    private EditText etLocation;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,9 +46,13 @@ public class MapActivity extends FragmentActivity implements OnMapReadyCallback 
         mapFragment.getMapAsync(this);
         btContinue = (ImageButton) findViewById(R.id.continue_button);
         btContinue.setEnabled(false);
+        etLocation = (EditText) findViewById(R.id.etLocation);
     }
 
     public void onMapSearch(View view) {
+        InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+        imm.hideSoftInputFromWindow(etLocation.getWindowToken(), 0);
+
         EditText locationSearch = (EditText) findViewById(R.id.etLocation);
         String location = locationSearch.getText().toString();
         List<Address> addressList = null;
