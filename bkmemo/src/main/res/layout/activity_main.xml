@@ -38,6 +38,16 @@
                 android:layout_below="@+id/appbar"
                 app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/fab2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:layout_margin="16dp"
+                android:src="@drawable/ic_action_add_light"
+                android:visibility="gone"
+                app:layout_anchorGravity="bottom|right|end" />
+
         </android.support.design.widget.CoordinatorLayout>
 
         <!-- Your FAB implementation -->
@@ -91,6 +101,7 @@
             </android.support.v7.widget.CardView>
 
         </io.codetail.widget.RevealLinearLayout>
+
     </RelativeLayout>
 
     <android.support.design.widget.NavigationView

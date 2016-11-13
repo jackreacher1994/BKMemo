@@ -8,10 +8,16 @@
         android:id="@+id/my_toolbar"
         style="@style/Widget.MaterialSheetFab.ToolBar" />
 
-    <android.support.v7.widget.RecyclerView
+    <com.jackreacher.bkmemo.RecyclerViewEmptySupport
         android:id="@+id/groups_list"
         android:layout_below="@+id/my_toolbar"
         style="@style/Widget.MaterialSheetFab.Note.List"
         android:paddingBottom="@dimen/note_spacing" />
+
+    <TextView android:id="@+id/empty_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/empty_list" />
 
 </RelativeLayout>

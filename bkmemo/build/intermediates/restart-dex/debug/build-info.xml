@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="56016155226636"
+    token="-3943974196213856896"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="871" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="18" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <artifact
+        location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+        type="DEX" />
+
+    <build
+        timestamp="55693338432026"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/outputs/apk/bkmemo-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="55879646120064"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="56016155226636"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

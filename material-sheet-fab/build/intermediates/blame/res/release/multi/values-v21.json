@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\JackReacher\\Desktop\\material-sheet-fab\\material-sheet-fab\\build\\intermediates\\res\\merged\\release\\values-v21\\values-v21.xml",
+        "outputFile": "/Users/jackreacher/Downloads/BKMemo/material-sheet-fab/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v21/values-v21.xml",
         "map": [
             {
                 "to": {
@@ -11,37 +11,13 @@
                     "endOffset": 150
                 },
                 "from": {
-                    "file": "C:\\Users\\JackReacher\\Desktop\\material-sheet-fab\\material-sheet-fab\\src\\main\\res\\values-v21\\refs.xml",
+                    "file": "/Users/jackreacher/Downloads/BKMemo/material-sheet-fab/src/main/res/values-v21/refs.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 57,
+                        "startOffset": 55,
                         "endColumn": 99,
-                        "endOffset": 152
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\material-sheet-fab\\build\\intermediates\\res\\merged\\release\\values-v21\\values-v21.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 99,
-                    "endOffset": 150
-                },
-                "from": {
-                    "file": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\material-sheet-fab\\src\\main\\res\\values-v21\\refs.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 57,
-                        "endColumn": 99,
-                        "endOffset": 152
+                        "endOffset": 150
                     }
                 }
             }

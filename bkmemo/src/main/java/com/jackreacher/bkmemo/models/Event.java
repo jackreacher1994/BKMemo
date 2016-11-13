@@ -83,12 +83,13 @@ public class Event {
     }
 
     public static int getRandomColor(Context context) {
-        int[] colors;
+        /*int[] colors;
         if (Math.random() >= 0.6) {
             colors = context.getResources().getIntArray(R.array.note_accent_colors);
         } else {
             colors = context.getResources().getIntArray(R.array.note_neutral_colors);
         }
-        return colors[((int) (Math.random() * colors.length))];
+        return colors[((int) (Math.random() * colors.length))];*/
+        return context.getResources().getIntArray(R.array.event_colors)[0];
     }
 }

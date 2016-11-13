@@ -14,26 +14,29 @@ public class Place {
     private String description;
     private String latitude;
     private String longitude;
+    private String address;
     private int groupId;
     @DrawableRes
     private int color;
 
     public Place(){}
 
-    public Place(int id, String name, String description, String latitude, String longitude, int groupId){
+    public Place(int id, String name, String description, String latitude, String longitude, String address, int groupId){
         this.id = id;
         this.name = name;
         this.description = description;
         this.latitude = latitude;
         this.longitude = longitude;
+        this.address = address;
         this.groupId = groupId;
     }
 
-    public Place(String name, String description, String latitude, String longitude, int groupId){
+    public Place(String name, String description, String latitude, String longitude, String address, int groupId){
         this.name = name;
         this.description = description;
         this.latitude = latitude;
         this.longitude = longitude;
+        this.address = address;
         this.groupId = groupId;
     }
 
@@ -53,22 +56,6 @@ public class Place {
         this.name = name;
     }
 
-    public String getLatitude() {
-        return latitude;
-    }
-
-    public void setLatitude(String latitude) {
-        this.latitude = latitude;
-    }
-
-    public String getLongitude() {
-        return longitude;
-    }
-
-    public void setLongitude(String longitude) {
-        this.longitude = longitude;
-    }
-
     public String getDescription() {
         return description;
     }
@@ -85,6 +72,30 @@ public class Place {
         this.groupId = groupId;
     }
 
+    public String getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(String latitude) {
+        this.latitude = latitude;
+    }
+
+    public String getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(String longitude) {
+        this.longitude = longitude;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
     public int getColor() {
         return color;
     }
@@ -94,12 +105,13 @@ public class Place {
     }
 
     public static int getRandomColor(Context context) {
-        int[] colors;
+        /*int[] colors;
         if (Math.random() >= 0.6) {
             colors = context.getResources().getIntArray(R.array.note_accent_colors);
         } else {
             colors = context.getResources().getIntArray(R.array.note_neutral_colors);
         }
-        return colors[((int) (Math.random() * colors.length))];
+        return colors[((int) (Math.random() * colors.length))];*/
+        return context.getResources().getIntArray(R.array.place_colors)[0];
     }
 }

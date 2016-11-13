@@ -1,8 +1,11 @@
 package com.jackreacher.bkmemo;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.GravityCompat;
@@ -37,12 +40,44 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 	private MaterialSheetFab materialSheetFab;
 	private int statusBarColor;
 	private MyDatabase mDatabase;
+	FloatingActionButton fab2;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setTitle(R.string.app_name);
 		setContentView(R.layout.activity_main);
+
+		mDatabase = new MyDatabase(this);
+
+		//  A preference is stored to mark the activity as started before
+		//  Declare a new thread to do a preference check
+		Thread t = new Thread(new Runnable() {
+			@Override
+			public void run() {
+				//  Initialize SharedPreferences
+				SharedPreferences getPrefs = PreferenceManager
+						.getDefaultSharedPreferences(getBaseContext());
+				//  Create a new boolean and preference and set it to true
+				boolean isFirstStart = getPrefs.getBoolean("firstStart", true);
+				//  If the activity has never started before...
+				if (isFirstStart) {
+					mDatabase.addGroup(new Group(getString(R.string.default_group)));
+
+					//  Launch app intro
+					Intent i = new Intent(MainActivity.this, IntroActivity.class);
+					startActivity(i);
+					//  Make a new preferences editor
+					SharedPreferences.Editor e = getPrefs.edit();
+					//  Edit preference to make it false because we don't want this to run again
+					e.putBoolean("firstStart", false);
+					//  Apply changes
+					e.apply();
+				}
+			}
+		});
+		// Start the thread
+		t.start();
+
 		setupActionBar();
 		setupDrawer();
 		setupFab();
@@ -84,10 +119,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 		NavigationView navigationView = (NavigationView) findViewById(R.id.navigation_view);
 		navigationView.setNavigationItemSelectedListener(this);
 
-		mDatabase = new MyDatabase(this);
-		mDatabase.addGroup(new Group("School"));
-		mDatabase.addGroup(new Group("Home"));
-		mDatabase.addGroup(new Group("Work"));
 		Menu menu = navigationView.getMenu();
 		List<Group> groups = mDatabase.getAllGroups();
 		MenuItem menuItem;
@@ -141,6 +172,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 	private void setupFab() {
 
 		Fab fab = (Fab) findViewById(R.id.fab);
+		fab2 = (FloatingActionButton) findViewById(R.id.fab2);
 		View sheetView = findViewById(R.id.fab_sheet);
 		View overlay = findViewById(R.id.overlay);
 		int sheetColor = getResources().getColor(R.color.background_card);
@@ -169,6 +201,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 		// Set material sheet item click listeners
 		findViewById(R.id.fab_sheet_item_location_auto).setOnClickListener(this);
 		findViewById(R.id.fab_sheet_item_location_hand).setOnClickListener(this);
+		fab2.setOnClickListener(this);
 	}
 
 	/**
@@ -189,9 +222,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 	private void updateFab(int selectedPage) {
 		switch (selectedPage) {
 		case MainPagerAdapter.PLACE_POS:
+			fab2.setVisibility(View.INVISIBLE);
 			materialSheetFab.showFab();
 			break;
 		case MainPagerAdapter.EVENT_POS:
+			fab2.setVisibility(View.VISIBLE);
 		default:
 			materialSheetFab.hideSheetThenFab();
 			break;
@@ -227,7 +262,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 	@Override
 	public void onClick(View v) {
-
+		if(v.getId()==R.id.fab_sheet_item_location_auto) {
+			Intent intent = new Intent(v.getContext(), PlaceAddActivity.class);
+			startActivity(intent);
+		} else if(v.getId()==R.id.fab2) {
+			Intent intent = new Intent(v.getContext(), EventAddActivity.class);
+			startActivity(intent);
+		} else if(v.getId()==R.id.fab_sheet_item_location_hand) {
+			Intent intent = new Intent(v.getContext(), MapActivity.class);
+			startActivity(intent);
+		}
 		materialSheetFab.hideSheet();
 	}
 

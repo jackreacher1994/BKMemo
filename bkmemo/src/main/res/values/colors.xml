@@ -25,4 +25,16 @@
         <item>#FD7044</item>
     </array>
 
+    <array name="event_colors">
+        <item>#FD7044</item>
+    </array>
+
+    <array name="group_colors">
+        <item>#689f38</item>
+    </array>
+
+    <array name="place_colors">
+        <item>#3D51B3</item>
+    </array>
+
 </resources>

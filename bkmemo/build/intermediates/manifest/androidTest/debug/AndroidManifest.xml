@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.gordonwong.materialsheetfab.sample.test">
+    package="com.jackreacher.bkmemo.test">
 
-    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23" />
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="24" />
 
     <application>
         <uses-library android:name="android.test.runner" />
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.gordonwong.materialsheetfab.sample"
+                     android:targetPackage="com.jackreacher.bkmemo"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.gordonwong.materialsheetfab.sample"/>
+                     android:label="Tests for com.jackreacher.bkmemo"/>
 </manifest>

@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\JackReacher\Desktop\BKMemo\material-sheet-fab\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="C:\Users\JackReacher\Desktop\BKMemo\material-sheet-fab\src\release\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/jackreacher/Downloads/BKMemo/material-sheet-fab/src/main/jniLibs"/></dataSet><dataSet config="release"><source path="/Users/jackreacher/Downloads/BKMemo/material-sheet-fab/src/release/jniLibs"/></dataSet></merger>

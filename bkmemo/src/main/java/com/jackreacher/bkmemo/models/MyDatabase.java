@@ -30,6 +30,7 @@ public class MyDatabase extends SQLiteOpenHelper {
     private static final String KEY_DESCRIPTION = "description";
     private static final String KEY_LATITUDE = "latitude";
     private static final String KEY_LONGITUDE = "longitude";
+    private static final String KEY_ADDRESS = "address";
     private static final String KEY_GROUP_ID = "group_id";
     private static final String KEY_TIME = "time";
     private static final String KEY_PLACE_ID = "place_id";
@@ -53,6 +54,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                 + KEY_DESCRIPTION + " TEXT,"
                 + KEY_LATITUDE + " TEXT,"
                 + KEY_LONGITUDE + " TEXT,"
+                + KEY_ADDRESS + " TEXT,"
                 + KEY_GROUP_ID + " INTEGER, FOREIGN KEY(" + KEY_GROUP_ID + ") REFERENCES " + TABLE_GROUPS + "(" + KEY_ID + "))";
         db.execSQL(CREATE_PLACES_TABLE);
         String CREATE_EVENTS_TABLE = "CREATE TABLE " + TABLE_EVENTS +
@@ -136,6 +138,17 @@ public class MyDatabase extends SQLiteOpenHelper {
         return groupList;
     }
 
+    public int getDefaultGroupId(){
+        String selectQuery = "SELECT MIN(" + KEY_ID + ") FROM " + TABLE_GROUPS;
+
+        SQLiteDatabase db = this.getWritableDatabase();
+        Cursor cursor = db.rawQuery(selectQuery, null);
+
+        if(cursor.getCount()>0)
+            cursor.moveToFirst();
+        return cursor.getInt(0);
+    }
+
     // Getting groups Count
     public int getGroupsCount(){
         String countQuery = "SELECT * FROM " + TABLE_GROUPS;
@@ -181,6 +194,7 @@ public class MyDatabase extends SQLiteOpenHelper {
         values.put(KEY_DESCRIPTION , place.getDescription());
         values.put(KEY_LATITUDE , place.getLatitude());
         values.put(KEY_LONGITUDE , place.getLongitude());
+        values.put(KEY_ADDRESS, place.getAddress());
         values.put(KEY_GROUP_ID , place.getGroupId());
 
         // Inserting Row
@@ -200,6 +214,7 @@ public class MyDatabase extends SQLiteOpenHelper {
                                 KEY_DESCRIPTION,
                                 KEY_LATITUDE,
                                 KEY_LONGITUDE,
+                                KEY_ADDRESS,
                                 KEY_GROUP_ID
                         }, KEY_ID + "=?",
 
@@ -209,7 +224,7 @@ public class MyDatabase extends SQLiteOpenHelper {
             cursor.moveToFirst();
 
         Place place = new Place(Integer.parseInt(cursor.getString(0)), cursor.getString(1),
-                cursor.getString(2), cursor.getString(3), cursor.getString(4), Integer.parseInt(cursor.getString(5)));
+                cursor.getString(2), cursor.getString(3), cursor.getString(4), cursor.getString(5), Integer.parseInt(cursor.getString(6)));
 
         return place;
     }
@@ -233,7 +248,8 @@ public class MyDatabase extends SQLiteOpenHelper {
                 place.setDescription(cursor.getString(2));
                 place.setLatitude(cursor.getString(3));
                 place.setLongitude(cursor.getString(4));
-                place.setGroupId(Integer.parseInt(cursor.getString(5)));
+                place.setAddress(cursor.getString(5));
+                place.setGroupId(Integer.parseInt(cursor.getString(6)));
 
                 // Adding place to list
                 placeList.add(place);
@@ -261,6 +277,7 @@ public class MyDatabase extends SQLiteOpenHelper {
         values.put(KEY_DESCRIPTION , place.getDescription());
         values.put(KEY_LATITUDE , place.getLatitude());
         values.put(KEY_LONGITUDE , place.getLongitude());
+        values.put(KEY_ADDRESS , place.getLongitude());
         values.put(KEY_GROUP_ID , place.getGroupId());
 
         // Updating row

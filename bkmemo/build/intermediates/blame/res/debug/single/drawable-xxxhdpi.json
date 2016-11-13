@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_photo_camera_grey600_24dp.png",
+        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/res/drawable-xxxhdpi/ic_photo_camera_grey600_24dp.png"
+    },
+    {
+        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_place_white_24dp.png",
+        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/res/drawable-xxxhdpi/ic_place_white_24dp.png"
+    },
+    {
+        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_search_white_24dp.png",
+        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/res/drawable-xxxhdpi/ic_search_white_24dp.png"
+    },
+    {
+        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_add_grey600_24dp.png",
+        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/res/drawable-xxxhdpi/ic_add_grey600_24dp.png"
+    },
+    {
+        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_mic_grey600_24dp.png",
+        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/res/drawable-xxxhdpi/ic_mic_grey600_24dp.png"
+    },
+    {
+        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_access_alarms_grey600_24dp.png",
+        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/res/drawable-xxxhdpi/ic_access_alarms_grey600_24dp.png"
+    },
+    {
+        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_create_grey600_24dp.png",
+        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/res/drawable-xxxhdpi/ic_create_grey600_24dp.png"
+    },
+    {
+        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_event_white_24dp.png",
+        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/res/drawable-xxxhdpi/ic_event_white_24dp.png"
+    }
+]

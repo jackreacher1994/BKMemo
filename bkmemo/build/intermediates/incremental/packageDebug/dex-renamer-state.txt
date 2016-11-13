@@ -1,0 +1,7 @@
+#Sun Nov 13 20:49:56 ICT 2016
+base.0=/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_bf66fdb15de355d83e8c2c31d6d35f7f28326784
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5603dd3b3ad588e54d9fba5916971cdef3a10ca1/classes.dex
+base.1=/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5603dd3b3ad588e54d9fba5916971cdef3a10ca1
+file.0=/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_bf66fdb15de355d83e8c2c31d6d35f7f28326784/classes.dex

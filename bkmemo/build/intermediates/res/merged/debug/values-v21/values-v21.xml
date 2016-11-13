@@ -4,6 +4,14 @@
     <dimen name="fab_spacing">@dimen/keyline_spacing</dimen>
     <dimen name="sheet_spacing">0dp</dimen>
     <item name="msf_interpolator" type="interpolator">@android:interpolator/fast_out_slow_in</item>
+    <style name="AppIntroButtonStyleCompat" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+    <style name="AppIntroDefaultHeading" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/appIntroHeadingTextSize</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
     <style name="Base.TextAppearance.AppCompat" parent="android:TextAppearance.Material"/>
     <style name="Base.TextAppearance.AppCompat.Body1" parent="android:TextAppearance.Material.Body1"/>
     <style name="Base.TextAppearance.AppCompat.Body2" parent="android:TextAppearance.Material.Body2"/>
@@ -257,6 +265,8 @@
     <style name="Platform.ThemeOverlay.AppCompat.Light"/>
     <style name="Theme.MaterialSheetFab" parent="Theme.MaterialSheetFab.Base">
         <item name="android:statusBarColor">?colorPrimaryDark</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:actionModeBackground">@color/theme_primary</item>
     </style>
     <style name="Widget.Design.AppBarLayout" parent="Base.Widget.Design.AppBarLayout">
         <item name="android:stateListAnimator">@anim/design_appbar_state_list_animator</item>

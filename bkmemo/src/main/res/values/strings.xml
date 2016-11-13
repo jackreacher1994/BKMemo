@@ -1,6 +1,7 @@
 <resources>
     <string name="closedrawer">Close drawer</string>
     <string name="opendrawer">Open drawer</string>
+    <string name="app_intro">App Intro</string>
     <string name="app_name">BKMemo</string>
     <string name="slide1_title">Chào mừng đến với\nBKMemo</string>
     <string name="slide1_desc">TÌM HIỂU</string>
@@ -20,11 +21,16 @@
     <string name="action_add">Thêm</string>
     <string name="action_ok">OK</string>
     <string name="action_setting">Cài đặt</string>
-    <string name="place">Địa điểm</string>
+    <string name="action_get">Get</string>
+    <string name="action_continue">Tiếp tục</string>
+    <string name="action_draw">Xem trên bản đồ</string>
+    <string name="place">Địa điểm</string>chọn
     <string name="event">Cuộc hẹn</string>
     <string name="empty_list">Nhấn vào nút cộng để bắt đầu thêm mục mới</string>
     <string name="title_activity_add_place">Thêm địa điểm</string>
+    <string name="title_activity_add_event">Thêm cuộc hẹn</string>
     <string name="title_activity_edit_place">Sửa địa điểm</string>
+    <string name="title_activity_edit_event">Sửa cuộc hẹn</string>
     <string name="title_activity_group">Sửa nhóm</string>
     <string name="et_place_name">Địa điểm</string>
     <string name="et_place_description">Mô tả</string>
@@ -37,4 +43,17 @@
     <string name="item_existed">Đã có mục này</string>
     <string name="location_auto">Địa điểm hiện tại</string>
     <string name="location_hand">Địa điểm nhập</string>
+    <string name="input_location">Nhập địa điểm</string>
+    <string name="selected_count">%1$s mục đã chọn</string>
+    <string name="required_field">Không được để trống trường này</string>
+    <string name="default_group">Chung</string>
+    <string name="no_geocoder_available">No geocoder available</string>
+    <string name="address_found">Address found</string>
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+        <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyDgHcQ5layIDKhveEXGczHZbrfnuSHi90Q
+    </string>
 </resources>

@@ -4,6 +4,7 @@ import android.content.Context;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
+import android.util.SparseBooleanArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,6 +16,7 @@ import com.jackreacher.bkmemo.R;
 import com.jackreacher.bkmemo.models.Group;
 import com.jackreacher.bkmemo.models.MyDatabase;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -22,9 +24,11 @@ import java.util.List;
  */
 public class GroupsAdapter extends RecyclerView.Adapter<GroupsAdapter.ViewHolder> {
     private Group[] groups;
+    private SparseBooleanArray selectedItems;
 
     public GroupsAdapter(Context context, int numGroups) {
         groups = generateGroups(context, numGroups);
+        selectedItems = new SparseBooleanArray();
     }
 
     @Override
@@ -79,5 +83,15 @@ public class GroupsAdapter extends RecyclerView.Adapter<GroupsAdapter.ViewHolder
             super(itemView);
             nameTextView = (TextView) itemView.findViewById(R.id.group_name);
         }
+    }
+
+    public void updateListAfterAdd(Context context, int numGroups, int position) {
+        groups = generateGroups(context, numGroups);
+        notifyItemInserted(position);
+    }
+
+    public void updateListAfterUpdate(Context context, int numGroups, int position) {
+        groups = generateGroups(context, numGroups);
+        notifyItemChanged(position);
     }
 }

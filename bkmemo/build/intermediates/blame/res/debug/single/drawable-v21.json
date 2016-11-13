@@ -1,30 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\JackReacher\\Desktop\\material-sheet-fab\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\Users\\JackReacher\\Desktop\\material-sheet-fab\\sample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\JackReacher\\Desktop\\material-sheet-fab\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\JackReacher\\Desktop\\material-sheet-fab\\sample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\sample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\bkmemo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\bkmemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\sample\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\sample\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\bkmemo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\bkmemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\bkmemo\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\JackReacher\\Desktop\\BKMemo\\bkmemo\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable-v21/abc_btn_colored_material.xml"
     }
 ]
