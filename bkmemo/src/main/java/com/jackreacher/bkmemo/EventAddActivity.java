@@ -33,6 +33,7 @@ import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
 import com.jackreacher.bkmemo.adapters.CustomSpinnerGroupAdapter;
 import com.jackreacher.bkmemo.adapters.CustomSpinnerPlaceAdapter;
+import com.jackreacher.bkmemo.adapters.MainPagerAdapter;
 import com.jackreacher.bkmemo.models.Event;
 import com.jackreacher.bkmemo.models.Group;
 import com.jackreacher.bkmemo.models.MyDatabase;
@@ -64,9 +65,6 @@ public class EventAddActivity extends AppCompatActivity {
     private TextView tvDate;
     private TextView tvTime;
     private Calendar cal;
-    private Date dateFinish;
-    private Date hourFinish;
-    private Switch swAlarm;
 
     // Values for orientation change
     private static final String KEY_NAME = "name_key";
@@ -104,18 +102,6 @@ public class EventAddActivity extends AppCompatActivity {
         tvDate = (TextView) findViewById(R.id.tvDate);
         tvTime = (TextView) findViewById(R.id.tvTime);
         getDefaultInfor();
-        swAlarm = (Switch) findViewById(R.id.swAlarm);
-        swAlarm.setChecked(false);
-        swAlarm.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if(isChecked) {
-
-                } else{
-
-                }
-            }
-        });
 
         // Setup Toolbar
         setSupportActionBar(mToolbar);
@@ -175,10 +161,6 @@ public class EventAddActivity extends AppCompatActivity {
         //Lấy giờ theo 24
         dft = new SimpleDateFormat("HH:mm", Locale.getDefault());
         tvTime.setTag(dft.format(cal.getTime()));
-
-        //Gán cal.getTime() cho ngày và giờ
-        dateFinish = cal.getTime();
-        hourFinish = cal.getTime();
     }
 
     // To save state on device rotation
@@ -209,9 +191,15 @@ public class EventAddActivity extends AppCompatActivity {
     public void saveEvent(){
         // Creating Place
         int ID = mDatabase.addEvent(new Event(mName, mDescription,
-                tvTime.getText() + " " + tvDate.getText(), mPlaceId));
+                tvDate.getText() + " " + tvTime.getText(), mPlaceId));
 
-        onBackPressed();
+        //onBackPressed();
+        Intent i = new Intent(this, MainActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putInt("numTab", MainPagerAdapter.EVENT_POS);
+        i.putExtra("bundle", bundle);
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
     }
 
     // On pressing the back button
@@ -277,9 +265,7 @@ public class EventAddActivity extends AppCompatActivity {
                                   int dayOfMonth) {
                 //Mỗi lần thay đổi ngày tháng năm thì cập nhật lại TextView Date
                 tvDate.setText((dayOfMonth) +"/"+(monthOfYear+1)+"/"+year);
-                //Lưu vết lại biến ngày
                 cal.set(year, monthOfYear, dayOfMonth);
-                dateFinish = cal.getTime();
             }
         };
 
@@ -315,7 +301,6 @@ public class EventAddActivity extends AppCompatActivity {
                 //Lưu vết lại giờ vào hourFinish
                 cal.set(Calendar.HOUR_OF_DAY, hourOfDay);
                 cal.set(Calendar.MINUTE, minute);
-                hourFinish = cal.getTime();
             }
         };
 

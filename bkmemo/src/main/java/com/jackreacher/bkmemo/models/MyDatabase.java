@@ -234,7 +234,7 @@ public class MyDatabase extends SQLiteOpenHelper {
         List<Place> placeList = new ArrayList<>();
 
         // Select all Query
-        String selectQuery = "SELECT * FROM " + TABLE_PLACES;
+        String selectQuery = "SELECT * FROM " + TABLE_PLACES + " ORDER BY " + KEY_ID + " DESC";
 
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor cursor = db.rawQuery(selectQuery, null);
@@ -277,7 +277,7 @@ public class MyDatabase extends SQLiteOpenHelper {
         values.put(KEY_DESCRIPTION , place.getDescription());
         values.put(KEY_LATITUDE , place.getLatitude());
         values.put(KEY_LONGITUDE , place.getLongitude());
-        values.put(KEY_ADDRESS , place.getLongitude());
+        values.put(KEY_ADDRESS , place.getAddress());
         values.put(KEY_GROUP_ID , place.getGroupId());
 
         // Updating row
@@ -344,7 +344,7 @@ public class MyDatabase extends SQLiteOpenHelper {
         List<Event> eventList = new ArrayList<>();
 
         // Select all Query
-        String selectQuery = "SELECT * FROM " + TABLE_EVENTS;
+        String selectQuery = "SELECT * FROM " + TABLE_EVENTS + " ORDER BY " + KEY_ID + " DESC";
 
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor cursor = db.rawQuery(selectQuery, null);

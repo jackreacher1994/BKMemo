@@ -67,7 +67,7 @@ public class PlaceEditActivity extends AppCompatActivity implements View.OnClick
 
         // Setup Toolbar
         setSupportActionBar(mToolbar);
-        getSupportActionBar().setTitle(R.string.title_activity_add_place);
+        getSupportActionBar().setTitle(R.string.title_activity_edit_place);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
 
@@ -137,9 +137,8 @@ public class PlaceEditActivity extends AppCompatActivity implements View.OnClick
         final CustomSpinnerGroupAdapter adapter = new CustomSpinnerGroupAdapter(this, groups);
         spGroup.setAdapter(adapter);
         for (int position = 0; position < adapter.getCount(); position++) {
-            if(adapter.getItemId(position) == mReceivedID) {
+            if(adapter.getItemId(position) == mReceivedPlace.getGroupId())
                 spGroup.setSelection(position);
-            }
         }
         spGroup.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
@@ -171,6 +170,7 @@ public class PlaceEditActivity extends AppCompatActivity implements View.OnClick
         // Set new values in the place
         mReceivedPlace.setName(mName);
         mReceivedPlace.setDescription(mDescription);
+        mReceivedPlace.setGroupId(mGroupId);
 
         // Update place
         mDatabase.updatePlace(mReceivedPlace);

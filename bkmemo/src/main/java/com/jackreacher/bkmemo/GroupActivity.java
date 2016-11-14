@@ -1,34 +1,24 @@
 package com.jackreacher.bkmemo;
 
-import android.app.ActivityOptions;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.LayoutRes;
 import android.support.annotation.Nullable;
-import android.support.v4.view.GestureDetectorCompat;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.support.v7.view.ActionMode;
-import android.view.GestureDetector;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.AdapterView;
 import android.widget.EditText;
-import android.widget.ListView;
 import android.widget.Toast;
 
 import com.jackreacher.bkmemo.adapters.GroupsAdapter;
-import com.jackreacher.bkmemo.adapters.NotesAdapter;
 import com.jackreacher.bkmemo.models.Group;
 import com.jackreacher.bkmemo.models.MyDatabase;
 
@@ -38,7 +28,7 @@ import java.util.List;
 /**
  * Created by JackReacher on 20/10/2016.
  */
-public class GroupActivity extends AppCompatActivity implements ActionMode.Callback {
+public class GroupActivity extends AppCompatActivity {
     private MyDatabase mDatabase;
     private List<Integer> IDList;
     private GroupsAdapter mAdapter;
@@ -85,15 +75,14 @@ public class GroupActivity extends AppCompatActivity implements ActionMode.Callb
                 StaggeredGridLayoutManager.VERTICAL));
         recyclerView.setEmptyView(findViewById(R.id.empty_list));
         mAdapter = new GroupsAdapter(this, getNumItems());
+        mAdapter.setOnItemClickListener(new GroupsAdapter.OnItemClickListener() {
+            @Override
+            public void onItemClick(View view, int position) {
+                editGroup(IDList.get(position), position);
+            }
+        });
         recyclerView.setAdapter(mAdapter);
-        recyclerView.addOnItemTouchListener(new RecyclerItemClickListener(this,
-                new RecyclerItemClickListener.OnItemClickListener() {
-                    @Override
-                    public void onItemClick(View view, int position) {
-                        // TODO Handle item click
-                        editGroup(IDList.get(position), position);
-                    }
-                }));
+
     }
 
     // To save state on device rotation
@@ -105,7 +94,10 @@ public class GroupActivity extends AppCompatActivity implements ActionMode.Callb
     // On pressing the back button
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
+        //super.onBackPressed();
+        Intent i = new Intent(this, MainActivity.class);
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
     }
 
     // Creating the menu
@@ -145,7 +137,7 @@ public class GroupActivity extends AppCompatActivity implements ActionMode.Callb
                                 int groupId = mDatabase.addGroup(new Group(etGroupName.getText().toString()));
                                 if (groupId > 0) {
                                     IDList.add(groupId);
-                                    mAdapter.updateListAfterAdd(getApplicationContext(), getNumItems(), recyclerView.getChildCount()+1);
+                                    mAdapter.updateList(getApplicationContext(), getNumItems());
                                 } else
                                     Toast.makeText(getApplicationContext(), getResources().getString(R.string.item_existed), Toast.LENGTH_SHORT).show();
                             }
@@ -191,7 +183,7 @@ public class GroupActivity extends AppCompatActivity implements ActionMode.Callb
                                 group.setName(etGroupName.getText().toString());
                                 int groupId = mDatabase.updateGroup(group);
                                 if (groupId > 0)
-                                    mAdapter.updateListAfterUpdate(getApplicationContext(), getNumItems(), mPosition);
+                                    mAdapter.updateList(getApplicationContext(), getNumItems());
                                 else
                                     Toast.makeText(getApplicationContext(), getResources().getString(R.string.item_existed), Toast.LENGTH_SHORT).show();
                             }
@@ -222,30 +214,8 @@ public class GroupActivity extends AppCompatActivity implements ActionMode.Callb
     }
 
     @Override
-    public boolean onCreateActionMode(ActionMode actionMode, Menu menu) {
-        MenuInflater inflater = actionMode.getMenuInflater();
-        inflater.inflate(R.menu.context_menu, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onPrepareActionMode(ActionMode actionMode, Menu menu) {
-        return false;
-    }
-
-    @Override
-    public boolean onActionItemClicked(ActionMode actionMode, MenuItem menuItem) {
-        switch (menuItem.getItemId()) {
-            case R.id.action_delete:
-                actionMode.finish();
-                return true;
-            default:
-                return false;
-        }
-    }
-
-    @Override
-    public void onDestroyActionMode(ActionMode actionMode) {
-        this.actionMode = null;
+    public void onResume(){
+        super.onResume();
+        mAdapter.updateList(this, getNumItems());
     }
 }

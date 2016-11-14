@@ -313,7 +313,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="4695d74821a9b83a5965461e97ba16a4c80dbfb6">
+        sha1="a57151106c807c942a3168326db7d18571a5e693">
         <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_bf66fdb15de355d83e8c2c31d6d35f7f28326784/classes.dex" />
     </item>
     <item
@@ -349,7 +349,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.2"
-        sha1="d51b084b97d675a5d9c1f5a329f6824daf327658">
+        sha1="331ca42815d5da308c881ebd00f36e0196533f0b">
         <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5603dd3b3ad588e54d9fba5916971cdef3a10ca1/classes.dex" />
     </item>
     <item

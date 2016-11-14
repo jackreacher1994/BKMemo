@@ -86,29 +86,45 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.ViewHolder
         return events;
     }
 
+    /***** Creating OnItemClickListener *****/
+
+    // Define listener member variable
+    private static OnItemClickListener listener;
+    // Define the listener interface
+    public interface OnItemClickListener {
+        void onItemClick(View itemView, int position);
+    }
+    // Define the method that allows the parent activity or fragment to define the listener
+    public void setOnItemClickListener(OnItemClickListener listener) {
+        this.listener = listener;
+    }
+
     public static class ViewHolder extends RecyclerView.ViewHolder {
         public TextView nameTextView;
         public TextView descriptionTextView;
         public TextView addressTextView;
         public TextView timeTextView;
 
-        public ViewHolder(View itemView) {
+        public ViewHolder(final View itemView) {
             super(itemView);
             nameTextView = (TextView) itemView.findViewById(R.id.event_name);
             descriptionTextView = (TextView) itemView.findViewById(R.id.event_description);
             addressTextView = (TextView) itemView.findViewById(R.id.event_address);
             timeTextView = (TextView) itemView.findViewById(R.id.event_time);
+
+            // Setup the click listener
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    // Triggers click upwards to the adapter on click
+                    if (listener != null) {
+                        int position = getAdapterPosition();
+                        if (position != RecyclerView.NO_POSITION)
+                            listener.onItemClick(itemView, position);
+                    }
+                }
+            });
         }
-    }
-
-    public void updateListAfterAdd(Context context, int numEvents, int position) {
-        events = generateEvents(context, numEvents);
-        notifyItemInserted(position);
-    }
-
-    public void updateListAfterUpdate(Context context, int numEvents, int position) {
-        events = generateEvents(context, numEvents);
-        notifyItemChanged(position);
     }
 
     public void updateList(Context context, int numEvents) {

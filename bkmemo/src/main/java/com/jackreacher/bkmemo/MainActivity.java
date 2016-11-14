@@ -40,14 +40,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 	private MaterialSheetFab materialSheetFab;
 	private int statusBarColor;
 	private MyDatabase mDatabase;
-	FloatingActionButton fab2;
+	private FloatingActionButton fab2;
+	private ViewPager viewpager;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-
-		mDatabase = new MyDatabase(this);
 
 		//  A preference is stored to mark the activity as started before
 		//  Declare a new thread to do a preference check
@@ -61,8 +60,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 				boolean isFirstStart = getPrefs.getBoolean("firstStart", true);
 				//  If the activity has never started before...
 				if (isFirstStart) {
-					mDatabase.addGroup(new Group(getString(R.string.default_group)));
-
 					//  Launch app intro
 					Intent i = new Intent(MainActivity.this, IntroActivity.class);
 					startActivity(i);
@@ -82,6 +79,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 		setupDrawer();
 		setupFab();
 		setupTabs();
+
+		Intent intent = getIntent();
+		Bundle bundle = intent.getBundleExtra("bundle");
+		if(bundle != null)
+			viewpager.setCurrentItem(bundle.getInt("numTab"));
 	}
 
 	@Override
@@ -111,6 +113,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 	 * Sets up the navigation drawer.
 	 */
 	private void setupDrawer() {
+		mDatabase = new MyDatabase(this);
 		drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
 		drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, R.string.opendrawer,
 				R.string.closedrawer);
@@ -142,7 +145,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 	 */
 	private void setupTabs() {
 		// Setup view pager
-		ViewPager viewpager = (ViewPager) findViewById(R.id.viewpager);
+		viewpager = (ViewPager) findViewById(R.id.viewpager);
 		viewpager.setAdapter(new MainPagerAdapter(this, getSupportFragmentManager()));
 		viewpager.setOffscreenPageLimit(MainPagerAdapter.NUM_ITEMS);
 		updatePage(viewpager.getCurrentItem());

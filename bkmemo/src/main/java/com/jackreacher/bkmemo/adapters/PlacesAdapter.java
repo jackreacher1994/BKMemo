@@ -96,6 +96,19 @@ public class PlacesAdapter extends RecyclerView.Adapter<PlacesAdapter.ViewHolder
         return places;
     }
 
+    /***** Creating OnItemClickListener *****/
+
+    // Define listener member variable
+    private static OnItemClickListener listener;
+    // Define the listener interface
+    public interface OnItemClickListener {
+        void onItemClick(View itemView, int position);
+    }
+    // Define the method that allows the parent activity or fragment to define the listener
+    public void setOnItemClickListener(OnItemClickListener listener) {
+        this.listener = listener;
+    }
+
     public static class ViewHolder extends RecyclerView.ViewHolder {
         public TextView nameTextView;
         public TextView descriptionTextView;
@@ -103,24 +116,27 @@ public class PlacesAdapter extends RecyclerView.Adapter<PlacesAdapter.ViewHolder
         public TextView addressTextView;
         public ImageView imageView;
 
-        public ViewHolder(View itemView) {
+        public ViewHolder(final View itemView) {
             super(itemView);
             nameTextView = (TextView) itemView.findViewById(R.id.place_name);
             descriptionTextView = (TextView) itemView.findViewById(R.id.place_description);
             groupNameTextView = (TextView) itemView.findViewById(R.id.place_group_name);
             addressTextView = (TextView) itemView.findViewById(R.id.place_address);
             imageView = (ImageView) itemView.findViewById(R.id.place_image);
+
+            // Setup the click listener
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    // Triggers click upwards to the adapter on click
+                    if (listener != null) {
+                        int position = getAdapterPosition();
+                        if (position != RecyclerView.NO_POSITION)
+                            listener.onItemClick(itemView, position);
+                    }
+                }
+            });
         }
-    }
-
-    public void updateListAfterAdd(Context context, int numPlaces, int position) {
-        places = generatePlaces(context, numPlaces);
-        notifyItemInserted(position);
-    }
-
-    public void updateListAfterUpdate(Context context, int numPlaces, int position) {
-        places = generatePlaces(context, numPlaces);
-        notifyItemChanged(position);
     }
 
     public void updateList(Context context, int numPlaces) {

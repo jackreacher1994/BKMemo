@@ -3,22 +3,17 @@ package com.jackreacher.bkmemo.fragments;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.jackreacher.bkmemo.PlaceEditActivity;
 import com.jackreacher.bkmemo.R;
-import com.jackreacher.bkmemo.RecyclerItemClickListener;
 import com.jackreacher.bkmemo.RecyclerViewEmptySupport;
-import com.jackreacher.bkmemo.adapters.GroupsAdapter;
-import com.jackreacher.bkmemo.adapters.NotesAdapter;
 import com.jackreacher.bkmemo.adapters.PlacesAdapter;
-import com.jackreacher.bkmemo.models.Group;
 import com.jackreacher.bkmemo.models.MyDatabase;
 import com.jackreacher.bkmemo.models.Place;
 
@@ -70,15 +65,13 @@ public class PlaceFragment extends Fragment {
 				StaggeredGridLayoutManager.VERTICAL));
 		recyclerView.setEmptyView(view.findViewById(R.id.empty_list));
 		mAdapter = new PlacesAdapter(getActivity(), getNumItems());
+		mAdapter.setOnItemClickListener(new PlacesAdapter.OnItemClickListener() {
+			@Override
+			public void onItemClick(View view, int position) {
+				editPlace(IDList.get(position));
+			}
+		});
 		recyclerView.setAdapter(mAdapter);
-		recyclerView.addOnItemTouchListener(new RecyclerItemClickListener(getActivity(),
-				new RecyclerItemClickListener.OnItemClickListener() {
-					@Override
-					public void onItemClick(View view, int position) {
-						// TODO Handle item click
-						editPlace(IDList.get(position));
-					}
-				}));
 
 		return view;
 	}

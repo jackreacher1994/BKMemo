@@ -75,23 +75,44 @@ public class GroupsAdapter extends RecyclerView.Adapter<GroupsAdapter.ViewHolder
         return groups;
     }
 
+    /***** Creating OnItemClickListener *****/
+
+    // Define listener member variable
+    private static OnItemClickListener listener;
+    // Define the listener interface
+    public interface OnItemClickListener {
+        void onItemClick(View itemView, int position);
+    }
+    // Define the method that allows the parent activity or fragment to define the listener
+    public void setOnItemClickListener(OnItemClickListener listener) {
+        this.listener = listener;
+    }
+
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
         public TextView nameTextView;
 
-        public ViewHolder(View itemView) {
+        public ViewHolder(final View itemView) {
             super(itemView);
             nameTextView = (TextView) itemView.findViewById(R.id.group_name);
+
+            // Setup the click listener
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    // Triggers click upwards to the adapter on click
+                    if (listener != null) {
+                        int position = getAdapterPosition();
+                        if (position != RecyclerView.NO_POSITION)
+                            listener.onItemClick(itemView, position);
+                    }
+                }
+            });
         }
     }
 
-    public void updateListAfterAdd(Context context, int numGroups, int position) {
+    public void updateList(Context context, int numGroups) {
         groups = generateGroups(context, numGroups);
-        notifyItemInserted(position);
-    }
-
-    public void updateListAfterUpdate(Context context, int numGroups, int position) {
-        groups = generateGroups(context, numGroups);
-        notifyItemChanged(position);
+        notifyDataSetChanged();
     }
 }

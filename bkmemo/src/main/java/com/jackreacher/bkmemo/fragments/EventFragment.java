@@ -10,16 +10,12 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.jackreacher.bkmemo.EventEditActivity;
-import com.jackreacher.bkmemo.PlaceEditActivity;
 import com.jackreacher.bkmemo.R;
-import com.jackreacher.bkmemo.RecyclerItemClickListener;
 import com.jackreacher.bkmemo.RecyclerViewEmptySupport;
 import com.jackreacher.bkmemo.adapters.EventsAdapter;
-import com.jackreacher.bkmemo.adapters.NotesAdapter;
 import com.jackreacher.bkmemo.adapters.PlacesAdapter;
 import com.jackreacher.bkmemo.models.Event;
 import com.jackreacher.bkmemo.models.MyDatabase;
-import com.jackreacher.bkmemo.models.Place;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -69,15 +65,13 @@ public class EventFragment extends Fragment {
 				StaggeredGridLayoutManager.VERTICAL));
 		recyclerView.setEmptyView(view.findViewById(R.id.empty_list));
 		mAdapter = new EventsAdapter(getActivity(), getNumItems());
+		mAdapter.setOnItemClickListener(new EventsAdapter.OnItemClickListener() {
+			@Override
+			public void onItemClick(View view, int position) {
+				editEvent(IDList.get(position));
+			}
+		});
 		recyclerView.setAdapter(mAdapter);
-		recyclerView.addOnItemTouchListener(new RecyclerItemClickListener(getActivity(),
-				new RecyclerItemClickListener.OnItemClickListener() {
-					@Override
-					public void onItemClick(View view, int position) {
-						// TODO Handle item click
-						editEvent(IDList.get(position));
-					}
-				}));
 
 		return view;
 	}
