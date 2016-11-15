@@ -96,6 +96,5 @@ public class PlaceFragment extends Fragment {
 	@Override
 	public void onResume(){
 		super.onResume();
-		//mAdapter.updateList(getActivity(), getNumItems());
 	}
 }

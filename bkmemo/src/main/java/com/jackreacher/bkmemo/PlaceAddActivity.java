@@ -14,6 +14,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.ResultReceiver;
+import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
@@ -23,6 +24,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
@@ -57,6 +59,8 @@ public class PlaceAddActivity extends AppCompatActivity implements View.OnClickL
     private double mLongitude;
     private TextView tvAddress;
     private ProgressBar mProgressbar;
+    private TextInputLayout inputLayoutName;
+
     /**
      * Provides the entry point to Google Play services.
      */
@@ -99,23 +103,29 @@ public class PlaceAddActivity extends AppCompatActivity implements View.OnClickL
         // Initialize Views
         mToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         etName = (EditText) findViewById(R.id.etPlaceName);
+        inputLayoutName = (TextInputLayout) findViewById(R.id.inputLayoutPlaceName);
         etDescription = (EditText) findViewById(R.id.etPlaceDescription);
         spGroup = (Spinner) findViewById(R.id.spGroup);
         tvAddress = (TextView) findViewById(R.id.tvPlaceAddress);
         mProgressbar = (ProgressBar) findViewById(R.id.progress_bar);
         mResultReceiver = new AddressResultReceiver(new Handler());
         mDatabase = new MyDatabase(this);
-        List<Group> groups = mDatabase.getAllGroups();
-        final CustomSpinnerGroupAdapter adapter = new CustomSpinnerGroupAdapter(this, groups);
+        final List<Group> groups = mDatabase.getAllGroups();
+        String[] groupNames = new String[mDatabase.getGroupsCount()];
+        for(int i = 0; i < groupNames.length; i++){
+            groupNames[i] = groups.get(i).getName();
+        }
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, groupNames);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spGroup.setAdapter(adapter);
         spGroup.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                mGroupId = (int) adapter.getItemId(position);
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                mGroupId = groups.get(i).getId();
             }
 
             @Override
-            public void onNothingSelected(AdapterView<?> parent) {
+            public void onNothingSelected(AdapterView<?> adapterView) {
 
             }
         });
@@ -135,7 +145,7 @@ public class PlaceAddActivity extends AppCompatActivity implements View.OnClickL
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 mName = s.toString().trim();
-                etName.setError(null);
+                inputLayoutName.setError(null);
             }
 
             @Override
@@ -151,7 +161,6 @@ public class PlaceAddActivity extends AppCompatActivity implements View.OnClickL
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 mDescription = s.toString().trim();
-                etDescription.setError(null);
             }
 
             @Override
@@ -175,6 +184,7 @@ public class PlaceAddActivity extends AppCompatActivity implements View.OnClickL
             mLatitude = bundle.getDouble("latitude");
             mLongitude = bundle.getDouble("longitude");
             mAddressOutput = bundle.getString("address");
+            displayAddressOutput();
         }
     }
 
@@ -224,16 +234,16 @@ public class PlaceAddActivity extends AppCompatActivity implements View.OnClickL
         // Creating Place
         int ID = mDatabase.addPlace(new Place(mName, mDescription, String.valueOf(mLatitude), String.valueOf(mLongitude), mAddressOutput, mGroupId));
 
-        //onBackPressed();
-        Intent i = new Intent(this, MainActivity.class);
-        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(i);
+        onBackPressed();
     }
 
     // On pressing the back button
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+        Intent i = new Intent(this, MainActivity.class);
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
     }
 
     // Creating the menu
@@ -258,7 +268,7 @@ public class PlaceAddActivity extends AppCompatActivity implements View.OnClickL
                 etDescription.setText(mDescription);
 
                 if (etName.getText().toString().length() == 0)
-                    etName.setError(getString(R.string.required_field));
+                    inputLayoutName.setError(getString(R.string.required_field));
                 else
                     savePlace();
 
@@ -429,9 +439,6 @@ public class PlaceAddActivity extends AppCompatActivity implements View.OnClickL
     }
 
     public void drawGoogleMap(double latitude, double longitude, String address) {
-        /*String myGeoCode = "geo:" + latitude + "," + longitude + "?z=15";
-        Intent intentViewMap = new Intent(Intent.ACTION_VIEW, Uri.parse(myGeoCode));
-        startActivity(intentViewMap);*/
         Bundle bundle = new Bundle();
         Intent intentViewMap = new Intent(this, BasicMapActivity.class);
         bundle.putDouble("latitude", latitude);
@@ -443,9 +450,6 @@ public class PlaceAddActivity extends AppCompatActivity implements View.OnClickL
 
     @Override
     public void onClick(View v) {
-        /*if (v.getId() == R.id.btGetLocation) {
-            fetchAddressButtonHandler();
-        } */
         if (v.getId() == R.id.btDrawMap) {
             drawGoogleMap(mLatitude, mLongitude, mAddressOutput);
         }

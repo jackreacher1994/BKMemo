@@ -96,6 +96,5 @@ public class EventFragment extends Fragment {
 	@Override
 	public void onResume(){
 		super.onResume();
-		mAdapter.updateList(getActivity(), getNumItems());
 	}
 }

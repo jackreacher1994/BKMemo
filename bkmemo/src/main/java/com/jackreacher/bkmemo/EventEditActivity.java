@@ -4,6 +4,7 @@ import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
@@ -12,6 +13,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
@@ -20,6 +22,7 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 
 import com.jackreacher.bkmemo.adapters.CustomSpinnerPlaceAdapter;
+import com.jackreacher.bkmemo.adapters.MainPagerAdapter;
 import com.jackreacher.bkmemo.models.Event;
 import com.jackreacher.bkmemo.models.MyDatabase;
 import com.jackreacher.bkmemo.models.Place;
@@ -51,6 +54,7 @@ public class EventEditActivity extends AppCompatActivity {
     private Calendar cal;
     private String mDate;
     private String mTime;
+    private TextInputLayout inputLayoutName;
 
     // Constant Intent String
     public static final String EXTRA_EVENT_ID = "Event_ID";
@@ -67,6 +71,7 @@ public class EventEditActivity extends AppCompatActivity {
         // Initialize Views
         mToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         etName = (EditText) findViewById(R.id.etEventName);
+        inputLayoutName = (TextInputLayout) findViewById(R.id.inputLayoutEventName);
         etDescription = (EditText) findViewById(R.id.etEventDescription);
         spPlace = (Spinner) findViewById(R.id.spPlace);
         tvDate = (TextView) findViewById(R.id.tvDate);
@@ -91,7 +96,7 @@ public class EventEditActivity extends AppCompatActivity {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 mName = s.toString().trim();
-                etName.setError(null);
+                inputLayoutName.setError(null);
             }
 
             @Override
@@ -107,7 +112,6 @@ public class EventEditActivity extends AppCompatActivity {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
                 mDescription = s.toString().trim();
-                etDescription.setError(null);
             }
 
             @Override
@@ -147,22 +151,26 @@ public class EventEditActivity extends AppCompatActivity {
             mDescription = savedDescription;
         }
 
-        List<Place> places = mDatabase.getAllPlaces();
-        final CustomSpinnerPlaceAdapter adapter = new CustomSpinnerPlaceAdapter(this, places);
+        final List<Place> places = mDatabase.getAllPlaces();
+        String[] placeNames = new String[mDatabase.getPlacesCount()];
+        for(int i = 0; i < placeNames.length; i++){
+            placeNames[i] = places.get(i).getName();
+        }
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, placeNames);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spPlace.setAdapter(adapter);
         for (int position = 0; position < adapter.getCount(); position++) {
-            if(adapter.getItemId(position) == mReceivedEvent.getPlaceId()) {
+            if(places.get(position).getId() == mReceivedEvent.getPlaceId())
                 spPlace.setSelection(position);
-            }
         }
         spPlace.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                mPlaceId = (int) adapter.getItemId(position);
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                mPlaceId = places.get(i).getId();
             }
 
             @Override
-            public void onNothingSelected(AdapterView<?> parent) {
+            public void onNothingSelected(AdapterView<?> adapterView) {
 
             }
         });
@@ -202,6 +210,12 @@ public class EventEditActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
+        Intent i = new Intent(this, MainActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putInt("numTab", MainPagerAdapter.EVENT_POS);
+        i.putExtra("bundle", bundle);
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
     }
 
     // Creating the menu
@@ -226,7 +240,7 @@ public class EventEditActivity extends AppCompatActivity {
                 etDescription.setText(mDescription);
 
                 if (etName.getText().toString().length() == 0)
-                    etName.setError("Place name cannot be blank!");
+                    inputLayoutName.setError("Place name cannot be blank!");
                 else
                     updateEvent();
 

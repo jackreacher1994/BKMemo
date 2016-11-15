@@ -1,44 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="25"
-    density="420dpi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="106508401697099"
+    timestamp="125471297459990"
     token="-3943974196213856896"
-    verifier="COMPATIBLE" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="754" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="19" />
     <task
         name="verifier"
-        duration="0" />
+        duration="1" />
 
     <artifact
-        location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+        type="DEX" />
 
     <build
-        timestamp="106180975974114"
+        timestamp="123012724456105"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/outputs/apk/bkmemo-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="106508401697099"
-        verifier="COMPATIBLE" >
+        timestamp="124367478108588"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
+            location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="125258999998228"
+        verifier="FIELD_ADDED" >
+        <artifact
+            location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="125471297459990"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>
