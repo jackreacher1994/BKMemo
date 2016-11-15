@@ -60,7 +60,7 @@ public class EventFragment extends Fragment {
 		}
 
 		// Setup list
-		RecyclerViewEmptySupport recyclerView = (RecyclerViewEmptySupport) view.findViewById(R.id.notes_list);
+		RecyclerViewEmptySupport recyclerView = (RecyclerViewEmptySupport) view.findViewById(R.id.events_list);
 		recyclerView.setLayoutManager(new StaggeredGridLayoutManager(getNumColumns(),
 				StaggeredGridLayoutManager.VERTICAL));
 		recyclerView.setEmptyView(view.findViewById(R.id.empty_list));

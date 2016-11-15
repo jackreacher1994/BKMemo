@@ -7,45 +7,149 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8a325bf-5b27-424a-8ef5-bc59bdac9fdc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/blame/res/debug/multi/color.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventAddActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/RecyclerItemClickListener$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/RecyclerItemClickListener$OnItemClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/RecyclerItemClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/adapters/NotesAdapter$ViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/adapters/NotesAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventAddActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/RecyclerItemClickListener$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/RecyclerItemClickListener$OnItemClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/RecyclerItemClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/adapters/NotesAdapter$ViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/adapters/NotesAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/layout/list_item_note.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventAddActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/RecyclerItemClickListener$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/RecyclerItemClickListener$OnItemClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/RecyclerItemClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/adapters/NotesAdapter$ViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/adapters/NotesAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_0/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_5/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventAddActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/RecyclerItemClickListener$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/RecyclerItemClickListener$OnItemClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/RecyclerItemClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/jackreacher/bkmemo/adapters/NotesAdapter$ViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/jackreacher/bkmemo/adapters/NotesAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/buildId.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/RecyclerItemClickListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/adapters/NotesAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/src/main/res/layout/list_item_note.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/animated_vector_drawable_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appintro_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/arcanimator_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/cardview_v7_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/design_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/library_2_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_22_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_ads_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appindexing_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appinvite_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appstate_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_cast_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_drive_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_fitness_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_games_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_gcm_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_identity_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_location_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_maps_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_measurement_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_nearby_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_panorama_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_plus_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_safetynet_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_vision_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_wallet_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_wearable_8_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/recyclerview_v7_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_compat_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_ui_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_core_utils_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_fragment_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_media_compat_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_vector_drawable_24_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-af/values-af.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-am/values-am.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ar/values-ar.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az-rAZ/values-az-rAZ.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-be-rBY/values-be-rBY.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bn-rBD/values-bn-rBD.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs-rBA/values-bs-rBA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ca/values-ca.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-cs/values-cs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-el/values-el.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rAU/values-en-rAU.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rGB/values-en-rGB.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rIN/values-en-rIN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es-rUS/values-es-rUS.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-et-rEE/values-et-rEE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-eu-rES/values-eu-rES.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fi/values-fi.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fr/values-fr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gl-rES/values-gl-rES.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-gu-rIN/values-gu-rIN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hi/values-hi.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hr/values-hr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hu/values-hu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy-rAM/values-hy-rAM.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-is-rIS/values-is-rIS.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-iw/values-iw.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ja/values-ja.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ka-rGE/values-ka-rGE.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kk-rKZ/values-kk-rKZ.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-km-rKH/values-km-rKH.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-kn-rIN/values-kn-rIN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ko/values-ko.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ky-rKG/values-ky-rKG.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lo-rLA/values-lo-rLA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lt/values-lt.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk-rMK/values-mk-rMK.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ml-rIN/values-ml-rIN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mn-rMN/values-mn-rMN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mr-rIN/values-mr-rIN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms-rMY/values-ms-rMY.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my-rMM/values-my-rMM.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nb/values-nb.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne-rNP/values-ne-rNP.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-nl/values-nl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa-rIN/values-pa-rIN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pl/values-pl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ro/values-ro.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ru/values-ru.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-si-rLK/values-si-rLK.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sq-rAL/values-sq-rAL.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sr/values-sr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ta-rIN/values-ta-rIN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-te-rIN/values-te-rIN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-th/values-th.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tl/values-tl.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-tr/values-tr.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uk/values-uk.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ur-rPK/values-ur-rPK.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-uz-rUZ/values-uz-rUZ.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v11/values-v11.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v12/values-v12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v13/values-v13.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v19/values-v19.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-vi/values-vi.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zu/values-zu.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -55,20 +159,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_bkmemo_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_bkmemo_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_bkmemo_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_bkmemo_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_bkmemo_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_bkmemo_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_material-sheet-fab_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_material-sheet-fab_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_material-sheet-fab_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_material-sheet-fab_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_material-sheet-fab_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_material-sheet-fab_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_material-sheet-fab_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_material-sheet-fab_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/android/support/design/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/android/support/design/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/android/support/v7/mediarouter/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/android/support/v7/mediarouter/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/android/support/v7/mediarouter/R$layout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/android/support/v7/mediarouter/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/github/paolorotolo/appintro/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/github/paolorotolo/appintro/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/github/paolorotolo/appintro/R$layout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/github/paolorotolo/appintro/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/BasicMapActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/BasicMapActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventAddActivity$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventAddActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventAddActivity$2.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventAddActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventAddActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventAddActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventAddActivity$4.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventAddActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventAddActivity$5.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventAddActivity$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventAddActivity$MyButtonEvent.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventAddActivity$MyButtonEvent.class" />
@@ -76,22 +172,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventEditActivity$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventEditActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventEditActivity$2.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventEditActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventEditActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventEditActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventEditActivity$4.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventEditActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventEditActivity$5.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventEditActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventEditActivity$MyButtonEvent.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventEditActivity$MyButtonEvent.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventEditActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/EventEditActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/GroupActivity$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/GroupActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/GroupActivity$2.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/GroupActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/GroupActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/GroupActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/GroupActivity$4.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/GroupActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/GroupActivity$5.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/GroupActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/GroupActivity$6.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/GroupActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/GroupActivity$7.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/GroupActivity$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/GroupActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/GroupActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/MainActivity$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/MainActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/MainActivity$2.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/MainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/MainActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/MainActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/MainActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/MapActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/MapActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/PlaceAddActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/PlaceAddActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/PlaceEditActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/PlaceEditActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/PlaceEditActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/PlaceEditActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/R$integer.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/R$integer.class" />
@@ -104,31 +194,19 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/R$style.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/R$styleable.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/adapters/EventsAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/adapters/EventsAdapter$ViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/adapters/EventsAdapter.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/adapters/EventsAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/adapters/GroupsAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/adapters/GroupsAdapter$ViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/adapters/GroupsAdapter.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/adapters/GroupsAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/adapters/PlacesAdapter$ViewHolder$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/adapters/PlacesAdapter$ViewHolder$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/adapters/PlacesAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/adapters/PlacesAdapter$ViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/adapters/PlacesAdapter.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/adapters/PlacesAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/fragments/EventFragment$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/fragments/EventFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/fragments/EventFragment.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/fragments/EventFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/fragments/PlaceFragment$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/fragments/PlaceFragment$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/fragments/PlaceFragment.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/fragments/PlaceFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/models/MyDatabase.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/classes/debug/com/jackreacher/bkmemo/models/MyDatabase.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services/8.1.0/jars/classes.jar" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services/8.1.0/jars/classes.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/android/support/design/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/android/support/design/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/android/support/v7/appcompat/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/android/support/v7/mediarouter/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/android/support/v7/mediarouter/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/android/support/v7/mediarouter/R$layout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/android/support/v7/mediarouter/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/github/paolorotolo/appintro/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/github/paolorotolo/appintro/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/github/paolorotolo/appintro/R$layout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/github/paolorotolo/appintro/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/BasicMapActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/BasicMapActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventAddActivity$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventAddActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventAddActivity$2.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventAddActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventAddActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventAddActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventAddActivity$4.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventAddActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventAddActivity$5.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventAddActivity$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventAddActivity$MyButtonEvent.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventAddActivity$MyButtonEvent.class" />
@@ -136,22 +214,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventEditActivity$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventEditActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventEditActivity$2.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventEditActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventEditActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventEditActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventEditActivity$4.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventEditActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventEditActivity$5.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventEditActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventEditActivity$MyButtonEvent.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventEditActivity$MyButtonEvent.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventEditActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/EventEditActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/GroupActivity$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/GroupActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/GroupActivity$2.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/GroupActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/GroupActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/GroupActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/GroupActivity$4.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/GroupActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/GroupActivity$5.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/GroupActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/GroupActivity$6.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/GroupActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/GroupActivity$7.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/GroupActivity$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/GroupActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/GroupActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/MainActivity$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/MainActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/MainActivity$2.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/MainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/MainActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/MainActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/MainActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/MainActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/MapActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/MapActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/PlaceAddActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/PlaceAddActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/PlaceEditActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/PlaceEditActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/PlaceEditActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/PlaceEditActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/R$integer.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/R$integer.class" />
@@ -164,29 +236,27 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/R$style.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/R$styleable.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/adapters/EventsAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/adapters/EventsAdapter$ViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/adapters/EventsAdapter.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/adapters/EventsAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/adapters/GroupsAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/adapters/GroupsAdapter$ViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/adapters/GroupsAdapter.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/adapters/GroupsAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/adapters/PlacesAdapter$ViewHolder$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/adapters/PlacesAdapter$ViewHolder$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/adapters/PlacesAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/adapters/PlacesAdapter$ViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/adapters/PlacesAdapter.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/adapters/PlacesAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/fragments/EventFragment$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/fragments/EventFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/fragments/EventFragment.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/fragments/EventFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/fragments/PlaceFragment$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/fragments/PlaceFragment$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/fragments/PlaceFragment.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/fragments/PlaceFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/models/MyDatabase.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental-verifier/debug/com/jackreacher/bkmemo/models/MyDatabase.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/packageDebug/zip-cache/QkkR8XsTyNuReVzo_raIWoj2Mt8=" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/packageDebug/zip-cache/QkkR8XsTyNuReVzo_raIWoj2Mt8=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/QkkR8XsTyNuReVzo_raIWoj2Mt8=" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/QkkR8XsTyNuReVzo_raIWoj2Mt8=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/instant-run-support/debug/instant-run.zip" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/instant-run-support/debug/instant-run.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_16dp.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_16dp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_location_hand.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_location_hand.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_36dp.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_ic_star_black_36dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi/cast_ic_notification_1.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi/cast_ic_notification_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi/cast_ic_notification_2.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi/cast_ic_notification_2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi/ic_media_route_on_2_mono_dark.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi/ic_media_route_on_2_mono_dark.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi/ic_setting_dark.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi/ic_setting_dark.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi/powered_by_google_dark.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi/powered_by_google_dark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi/powered_by_google_light.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-hdpi/powered_by_google_light.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_48dp.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_48dp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_dark.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_dark.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_add_light.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_add_light.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_location_auto.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_location_auto.png" />
@@ -194,32 +264,34 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_view_on_map.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_view_on_map.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi/ic_cast_off_light.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi/ic_cast_off_light.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi/ic_cast_on_0_light.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi/ic_cast_on_0_light.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi/ic_media_route_on_1_mono_dark.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi/ic_media_route_on_1_mono_dark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi/powered_by_google_dark.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi/powered_by_google_dark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_light.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_light.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi/ic_cast_light.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi/ic_cast_light.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_continue.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_continue.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_menu.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi/ic_action_menu.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi/ic_media_route_on_2_mono_dark.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi/ic_media_route_on_2_mono_dark.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi/ic_pause_dark.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi/ic_pause_dark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi/ic_mic_grey600_24dp.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi/ic_mic_grey600_24dp.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi/mr_ic_audio_vol.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi/mr_ic_audio_vol.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi/powered_by_google_dark.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi/powered_by_google_dark.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi/powered_by_google_light.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xhdpi/powered_by_google_light.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/cast_ic_notification_on.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/cast_ic_notification_on.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_view_on_map.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_view_on_map.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_cast_off_light.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_cast_off_light.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_cast_on_1_light.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_cast_on_1_light.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_cast_on_2_light.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_cast_on_2_light.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_cast_on_light.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_cast_on_light.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_media_route_disabled_mono_dark.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_media_route_disabled_mono_dark.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_place_white_24dp.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_place_white_24dp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/powered_by_google_dark.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/powered_by_google_dark.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_add_grey600_24dp.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_add_grey600_24dp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_mic_grey600_24dp.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_mic_grey600_24dp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_place_white_24dp.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/drawable-xxxhdpi/ic_place_white_24dp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" />
@@ -228,17 +300,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/design/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/appcompat/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/mediarouter/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/mediarouter/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/mediarouter/R$layout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/android/support/v7/mediarouter/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/github/paolorotolo/appintro/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/github/paolorotolo/appintro/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/github/paolorotolo/appintro/R$layout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/github/paolorotolo/appintro/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/gordonwong/materialsheetfab/DimOverlayFrameLayout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/gordonwong/materialsheetfab/DimOverlayFrameLayout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/BasicMapActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/BasicMapActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventAddActivity$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventAddActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventAddActivity$2.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventAddActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventAddActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventAddActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventAddActivity$4.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventAddActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventAddActivity$5.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventAddActivity$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventAddActivity$MyButtonEvent.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventAddActivity$MyButtonEvent.class" />
@@ -246,22 +312,20 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventEditActivity$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventEditActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventEditActivity$2.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventEditActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventEditActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventEditActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventEditActivity$4.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventEditActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventEditActivity$5.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventEditActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventEditActivity$MyButtonEvent.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventEditActivity$MyButtonEvent.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventEditActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/EventEditActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/GroupActivity$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/GroupActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/GroupActivity$2.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/GroupActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/GroupActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/GroupActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/GroupActivity$4.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/GroupActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/GroupActivity$5.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/GroupActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/GroupActivity$6.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/GroupActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/GroupActivity$7.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/GroupActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/Fab.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/Fab.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/FetchAddressIntentService.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/FetchAddressIntentService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/GroupActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/GroupActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/IntroActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/IntroActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/MainActivity$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/MainActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/MainActivity$2.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/MainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/MainActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/MainActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/MainActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/MapActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/MapActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/PlaceAddActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/PlaceAddActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/PlaceEditActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/PlaceEditActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/PlaceEditActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/PlaceEditActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/R$integer.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/R$integer.class" />
@@ -273,26 +337,21 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/R$string.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/R$style.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/R$styleable.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/RecyclerViewEmptySupport.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/RecyclerViewEmptySupport.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/adapters/EventsAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/adapters/EventsAdapter$ViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/adapters/EventsAdapter.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/adapters/EventsAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/adapters/GroupsAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/adapters/GroupsAdapter$ViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/adapters/GroupsAdapter.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/adapters/GroupsAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/adapters/PlacesAdapter$ViewHolder$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/adapters/PlacesAdapter$ViewHolder$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/adapters/PlacesAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/adapters/PlacesAdapter$ViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/adapters/PlacesAdapter.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/adapters/PlacesAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/fragments/EventFragment$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/fragments/EventFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/fragments/EventFragment.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/fragments/EventFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/fragments/PlaceFragment$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/fragments/PlaceFragment$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/fragments/PlaceFragment.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/fragments/PlaceFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/models/MyDatabase.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/jackreacher/bkmemo/models/MyDatabase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/io/codetail/widget/RevealFrameLayout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/io/codetail/widget/RevealFrameLayout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/io/codetail/widget/RevealLinearLayout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRun/debug/folders/1/5/main/io/codetail/widget/RevealLinearLayout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/gordonwong/materialsheetfab/DimOverlayFrameLayout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/gordonwong/materialsheetfab/DimOverlayFrameLayout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/jackreacher/bkmemo/models/MyDatabase.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/jackreacher/bkmemo/models/MyDatabase.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_4/android/support/v7/appcompat/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/android/support/v7/mediarouter/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/android/support/v7/mediarouter/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/android/support/v7/mediarouter/R$layout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/android/support/v7/mediarouter/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/BasicMapActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/BasicMapActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventAddActivity$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventAddActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventAddActivity$2.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventAddActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventAddActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventAddActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventAddActivity$4.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventAddActivity$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventAddActivity$5.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventAddActivity$5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventAddActivity$MyButtonEvent.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventAddActivity$MyButtonEvent.class" />
@@ -300,22 +359,20 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventEditActivity$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventEditActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventEditActivity$2.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventEditActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventEditActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventEditActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventEditActivity$4.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventEditActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventEditActivity$5.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventEditActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventEditActivity$MyButtonEvent.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventEditActivity$MyButtonEvent.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventEditActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/EventEditActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/GroupActivity$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/GroupActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/GroupActivity$2.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/GroupActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/GroupActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/GroupActivity$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/GroupActivity$4.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/GroupActivity$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/GroupActivity$5.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/GroupActivity$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/GroupActivity$6.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/GroupActivity$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/GroupActivity$7.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/GroupActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/Fab.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/Fab.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/FetchAddressIntentService.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/FetchAddressIntentService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/GroupActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/GroupActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/IntroActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/IntroActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/MainActivity$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/MainActivity$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/MainActivity$2.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/MainActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/MainActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/MainActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/MainActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/MainActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/MapActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/MapActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/PlaceAddActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/PlaceAddActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/PlaceEditActivity$3.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/PlaceEditActivity$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/PlaceEditActivity.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/PlaceEditActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/R$integer.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/R$integer.class" />
@@ -327,66 +384,55 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/R$string.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/R$string.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/R$style.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/R$styleable.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/RecyclerViewEmptySupport.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/jackreacher/bkmemo/RecyclerViewEmptySupport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/io/codetail/widget/RevealFrameLayout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/io/codetail/widget/RevealFrameLayout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/io/codetail/widget/RevealLinearLayout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/io/codetail/widget/RevealLinearLayout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/design/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/design/R$layout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/android/support/design/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/jackreacher/bkmemo/adapters/EventsAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/jackreacher/bkmemo/adapters/EventsAdapter$ViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/jackreacher/bkmemo/adapters/EventsAdapter.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/jackreacher/bkmemo/adapters/EventsAdapter.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/jackreacher/bkmemo/adapters/GroupsAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/jackreacher/bkmemo/adapters/GroupsAdapter$ViewHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/jackreacher/bkmemo/adapters/GroupsAdapter.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/jackreacher/bkmemo/adapters/GroupsAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/jackreacher/bkmemo/adapters/PlacesAdapter$ViewHolder$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/jackreacher/bkmemo/adapters/PlacesAdapter$ViewHolder$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/jackreacher/bkmemo/adapters/PlacesAdapter$ViewHolder.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/jackreacher/bkmemo/adapters/PlacesAdapter$ViewHolder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/jackreacher/bkmemo/adapters/PlacesAdapter.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/jackreacher/bkmemo/adapters/PlacesAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/jackreacher/bkmemo/fragments/EventFragment$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/jackreacher/bkmemo/fragments/EventFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/jackreacher/bkmemo/fragments/EventFragment.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/jackreacher/bkmemo/fragments/EventFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/jackreacher/bkmemo/fragments/PlaceFragment$1.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/jackreacher/bkmemo/fragments/PlaceFragment$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/jackreacher/bkmemo/fragments/PlaceFragment.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_8/com/jackreacher/bkmemo/fragments/PlaceFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/github/paolorotolo/appintro/R$id.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/github/paolorotolo/appintro/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/github/paolorotolo/appintro/R$layout.class" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_9/com/github/paolorotolo/appintro/R$layout.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/outputs/apk/bkmemo-debug.apk" afterPath="$PROJECT_DIR$/bkmemo/build/outputs/apk/bkmemo-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/bkmemo/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-sheet-fab/build/outputs/aar/material-sheet-fab-debug.aar" afterPath="$PROJECT_DIR$/material-sheet-fab/build/outputs/aar/material-sheet-fab-debug.aar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-sheet-fab/build/outputs/aar/material-sheet-fab-release.aar" afterPath="$PROJECT_DIR$/material-sheet-fab/build/outputs/aar/material-sheet-fab-release.aar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/bkmemo/build/generated/source/r/debug/android/support/design/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/bkmemo/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/generated/source/r/debug/android/support/v7/mediarouter/R.java" afterPath="$PROJECT_DIR$/bkmemo/build/generated/source/r/debug/android/support/v7/mediarouter/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/generated/source/r/debug/com/github/paolorotolo/appintro/R.java" afterPath="$PROJECT_DIR$/bkmemo/build/generated/source/r/debug/com/github/paolorotolo/appintro/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/generated/source/r/debug/com/jackreacher/bkmemo/R.java" afterPath="$PROJECT_DIR$/bkmemo/build/generated/source/r/debug/com/jackreacher/bkmemo/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/blame/res/debug/multi/values.json" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/blame/res/debug/multi/values.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/blame/res/debug/single/drawable-hdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/blame/res/debug/single/drawable-xhdpi-v4.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/blame/res/debug/single/drawable-xxhdpi.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/blame/res/debug/single/drawable.json" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/blame/res/debug/single/drawable.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/blame/res/debug/single/layout.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/layout/activity_add_event.xml" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/layout/activity_add_event.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/instant-run-support/debug/manifest.crc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/instant-run-support/debug/manifest.xml" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/instant-run-support/debug/manifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/layout/fragment_event.xml" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/layout/fragment_event.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/layout/fragment_place.xml" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/res/merged/debug/layout/fragment_place.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/restart-dex/debug/build-info.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/bkmemo/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/bkmemo/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bkmemo/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/EventAddActivity.java" afterPath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/EventAddActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/EventEditActivity.java" afterPath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/EventEditActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/GroupActivity.java" afterPath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/GroupActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/MainActivity.java" afterPath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/PlaceEditActivity.java" afterPath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/PlaceEditActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/adapters/EventsAdapter.java" afterPath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/adapters/EventsAdapter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/adapters/GroupsAdapter.java" afterPath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/adapters/GroupsAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/adapters/PlacesAdapter.java" afterPath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/adapters/PlacesAdapter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/fragments/EventFragment.java" afterPath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/fragments/EventFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/fragments/PlaceFragment.java" afterPath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/fragments/PlaceFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/models/MyDatabase.java" afterPath="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/models/MyDatabase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/src/main/res/layout/activity_add_event.xml" afterPath="$PROJECT_DIR$/bkmemo/src/main/res/layout/activity_add_event.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/src/main/res/layout/activity_groups.xml" afterPath="$PROJECT_DIR$/bkmemo/src/main/res/layout/activity_groups.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/src/main/res/layout/fragment_event.xml" afterPath="$PROJECT_DIR$/bkmemo/src/main/res/layout/fragment_event.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bkmemo/src/main/res/layout/fragment_place.xml" afterPath="$PROJECT_DIR$/bkmemo/src/main/res/layout/fragment_place.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-sheet-fab/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/material-sheet-fab/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-sheet-fab/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/material-sheet-fab/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-sheet-fab/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/material-sheet-fab/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-sheet-fab/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/material-sheet-fab/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-sheet-fab/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/material-sheet-fab/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/material-sheet-fab/material-sheet-fab.iml" afterPath="$PROJECT_DIR$/material-sheet-fab/material-sheet-fab.iml" />
     </list>
     <ignored path="BKMemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -418,7 +464,7 @@
     <favorites_list name="BKMemo" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -2815,7 +2861,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="8864790949000" />
+        <entry key="$PROJECT_DIR$" value="8874301877000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -3290,20 +3336,24 @@
       <list>
         <option value="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/MapActivity.java" />
         <option value="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/PlaceAddActivity.java" />
-        <option value="$PROJECT_DIR$/bkmemo/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/bkmemo/src/main/res/values/colors.xml" />
-        <option value="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/fragments/EventFragment.java" />
-        <option value="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/fragments/PlaceFragment.java" />
-        <option value="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/adapters/PlacesAdapter.java" />
         <option value="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/GroupActivity.java" />
-        <option value="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/models/MyDatabase.java" />
         <option value="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/PlaceEditActivity.java" />
         <option value="$PROJECT_DIR$/bkmemo/src/main/res/layout/activity_add_event.xml" />
         <option value="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/adapters/EventsAdapter.java" />
         <option value="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/adapters/GroupsAdapter.java" />
-        <option value="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/EventEditActivity.java" />
         <option value="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/EventAddActivity.java" />
+        <option value="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/EventEditActivity.java" />
+        <option value="$PROJECT_DIR$/bkmemo/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/models/MyDatabase.java" />
+        <option value="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/fragments/EventFragment.java" />
         <option value="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/fragments/PlaceFragment.java" />
+        <option value="$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/adapters/PlacesAdapter.java" />
+        <option value="$PROJECT_DIR$/bkmemo/src/main/res/layout/fragment_place.xml" />
+        <option value="$PROJECT_DIR$/bkmemo/src/main/res/layout/fragment_event.xml" />
+        <option value="$PROJECT_DIR$/bkmemo/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/bkmemo/src/main/res/layout/activity_groups.xml" />
       </list>
     </option>
   </component>
@@ -3319,7 +3369,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -3337,10 +3387,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3371,6 +3418,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BKMemo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bkmemo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mipmap" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderTypeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -3491,13 +3556,21 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../recyclerviewdemo" />
-    <property name="device.picker.selection" value="88HFBMR27F9T" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Android-Alarm-Clock" />
+    <property name="device.picker.selection" value="Nexus_5X_API_25_x86" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bkmemo/src/main/res/mipmap-xxhdpi" />
+    </key>
   </component>
   <component name="RunManager" selected="Android App.bkmemo">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -3825,11 +3898,10 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -3839,6 +3911,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32881355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -3854,34 +3927,45 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/res/layout/activity_map.xml">
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/res/layout/fragment_place.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding>
+            <element signature="e#707#727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/res/layout/activity_map.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/res/layout/activity_add_place.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/res/layout/activity_add_place.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bkmemo/src/main/res/values/colors.xml">
@@ -3900,19 +3984,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/RecyclerItemClickListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/RecyclerItemClickListener.java" />
     <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/RecyclerViewEmptySupport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-113">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3920,7 +3996,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -3928,10 +4003,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="392" column="16" selection-start-line="392" selection-start-column="16" selection-end-line="392" selection-end-column="16" />
-          <folding>
-            <element signature="e#11216#11217#0" expanded="true" />
-            <element signature="e#11267#11268#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3939,66 +4010,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="179" column="25" selection-start-line="179" selection-start-column="25" selection-end-line="179" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/adapters/NotesAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-465">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/adapters/NotesAdapter.java" />
     <entry file="file://$PROJECT_DIR$/bkmemo/src/main/res/layout/list_item_event.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-331">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/GroupActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="161" column="13" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/fragments/PlaceFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/adapters/PlacesAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1845">
-          <caret line="144" column="5" selection-start-line="144" selection-start-column="5" selection-end-line="144" selection-end-column="5" />
-          <folding>
-            <element signature="e#4208#4209#0" expanded="true" />
-            <element signature="e#4248#4249#0" expanded="true" />
-            <element signature="e#5103#5568#0" expanded="true" />
-            <element signature="e#5567#5568#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4006,10 +4035,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding>
-            <element signature="e#2946#2947#0" expanded="true" />
-            <element signature="e#2986#2987#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4017,22 +4042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
           <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-          <folding>
-            <element signature="e#3803#3804#0" expanded="true" />
-            <element signature="e#3843#3844#0" expanded="true" />
-            <element signature="e#4569#5034#0" expanded="true" />
-            <element signature="e#5033#5034#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/fragments/EventFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding>
-            <element signature="e#2235#2236#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4040,82 +4049,224 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
           <caret line="233" column="13" selection-start-line="233" selection-start-column="13" selection-end-line="233" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/adapters/MainPagerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/res/layout/activity_add_event.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
-          <folding>
-            <element signature="e#2062#2076#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/PlaceEditActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
+        <state relative-caret-position="532">
           <caret line="172" column="8" selection-start-line="172" selection-start-column="8" selection-end-line="172" selection-end-column="8" />
-          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/res/layout/activity_add_event.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/models/Event.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/models/MyDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="317" column="21" selection-start-line="317" selection-start-column="21" selection-end-line="317" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/EventAddActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="196" column="47" selection-start-line="196" selection-start-column="47" selection-end-line="196" selection-end-column="47" />
+        <state relative-caret-position="262">
+          <caret line="195" column="60" selection-start-line="195" selection-start-column="60" selection-end-line="195" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/EventEditActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/res/mipmap-xxhdpi/ic_launcher.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="78" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-24/android.jar!/android/view/Menu.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-24/android.jar!/android/widget/Toast.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-24/android.jar!/android/os/Handler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-24/android.jar!/android/database/sqlite/SQLiteOpenHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/fragments/EventFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/recyclerview-v7/24.2.1/recyclerview-v7-24.2.1-sources.jar!/android/support/v7/widget/RecyclerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="970" column="19" selection-start-line="970" selection-start-column="19" selection-end-line="970" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-24/android.jar!/android/view/Choreographer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3083">
+          <caret line="322" column="41" selection-start-line="322" selection-start-column="41" selection-end-line="322" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/models/MyDatabase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+        <state relative-caret-position="2753">
+          <caret line="432" column="5" selection-start-line="432" selection-start-column="5" selection-end-line="432" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/fragments/PlaceFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+          <folding>
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1047#1048#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="true" />
+            <element signature="e#1131#1132#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+            <element signature="e#1180#1181#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/adapters/PlacesAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="72" column="67" selection-start-line="72" selection-start-column="67" selection-end-line="72" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/adapters/MainPagerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/res/layout/list_item_place.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/res/layout/fragment_place.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="40" selection-start-line="14" selection-start-column="8" selection-end-line="15" selection-end-column="40" />
+          <folding>
+            <element signature="e#707#727#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="31" column="59" selection-start-line="31" selection-start-column="59" selection-end-line="31" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/java/com/jackreacher/bkmemo/EventEditActivity.java">
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/res/layout/fragment_event.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="298" column="0" selection-start-line="298" selection-start-column="0" selection-end-line="298" selection-end-column="0" />
-          <folding>
-            <element signature="e#9112#9138#0" expanded="true" />
-            <element signature="e#10469#10495#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bkmemo/src/main/res/layout/activity_groups.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
   </component>

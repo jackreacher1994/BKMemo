@@ -24,8 +24,10 @@ import com.jackreacher.bkmemo.models.Event;
 import com.jackreacher.bkmemo.models.MyDatabase;
 import com.jackreacher.bkmemo.models.Place;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.List;
+import java.util.Locale;
 
 /**
  * Created by JackReacher on 20/10/2016.
@@ -123,15 +125,16 @@ public class EventEditActivity extends AppCompatActivity {
         mName = mReceivedEvent.getName();
         mDescription = mReceivedEvent.getDescription();
         String timeStr = mReceivedEvent.getTime();
-        String[] arrStr = timeStr.split(" ", 2);
-        mDate = arrStr[0];
-        mTime = arrStr[1];
+        String[] arrStr = timeStr.split(" ");
+        mDate = arrStr[1];
+        mTime = arrStr[0];
 
         etName.setText(mName);
         etDescription.setText(mDescription);
         etName.setSelection(etName.length());
         tvDate.setText(mDate);
         tvTime.setText(mTime);
+        getDefaultInfor();
 
         // To save state on device rotation
         if (savedInstanceState != null) {
@@ -165,6 +168,10 @@ public class EventEditActivity extends AppCompatActivity {
         });
     }
 
+    public void getDefaultInfor() {
+        cal = Calendar.getInstance();
+    }
+
     // To save state on device rotation
     @Override
     protected void onSaveInstanceState (Bundle outState) {
@@ -183,6 +190,7 @@ public class EventEditActivity extends AppCompatActivity {
         mReceivedEvent.setName(mName);
         mReceivedEvent.setDescription(mDescription);
         mReceivedEvent.setPlaceId(mPlaceId);
+        mReceivedEvent.setTime(tvTime.getText() + " " + tvDate.getText());
 
         // Update place
         mDatabase.updateEvent(mReceivedEvent);
@@ -278,29 +286,18 @@ public class EventEditActivity extends AppCompatActivity {
         TimePickerDialog.OnTimeSetListener callback = new TimePickerDialog.OnTimeSetListener() {
             public void onTimeSet(TimePicker view,
                                   int hourOfDay, int minute) {
-                //Xử lý lưu giờ và AM, PM
                 String s = hourOfDay + ":" + minute;
-                int hourTam = hourOfDay;
-                if (hourTam > 12)
-                    hourTam = hourTam - 12;
-                tvTime.setText(hourTam + ":" + minute + (hourOfDay > 12 ? " PM" : " AM"));
-                //Lưu giờ thực vào tag
-                tvTime.setTag(s);
-                //Lưu vết lại giờ vào hourFinish
+                tvTime.setText(s);
                 cal.set(Calendar.HOUR_OF_DAY, hourOfDay);
                 cal.set(Calendar.MINUTE, minute);
             }
         };
 
-        //Các lệnh dưới này xử lý ngày giờ trong TimePickerDialog
-        //sẽ giống với trên TextView khi mở nó lên
-        String s = tvTime.getTag() + "";
+        String s = tvTime.getText() + "";
         String strArr[] = s.split(":");
         int gio = Integer.parseInt(strArr[0]);
         int phut = Integer.parseInt(strArr[1]);
-        TimePickerDialog time = new TimePickerDialog(
-                this,
-                callback, gio, phut, true);
+        TimePickerDialog time = new TimePickerDialog(this, callback, gio, phut, true);
         time.setTitle(R.string.select_time_event);
         time.show();
     }

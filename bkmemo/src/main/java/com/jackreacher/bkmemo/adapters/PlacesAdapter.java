@@ -71,13 +71,6 @@ public class PlacesAdapter extends RecyclerView.Adapter<PlacesAdapter.ViewHolder
 
         // Set background color
         ((CardView) holder.itemView).setCardBackgroundColor(color);
-
-        /*holder.imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                drawGoogleMap(placeModel.getLatitude(), placeModel.getLongitude(), placeModel.getAddress());
-            }
-        });*/
     }
 
     @Override
@@ -89,6 +82,17 @@ public class PlacesAdapter extends RecyclerView.Adapter<PlacesAdapter.ViewHolder
         Place[] places = new Place[numPlaces];
         MyDatabase mDatabase = new MyDatabase(context);
         List<Place> mPlaces = mDatabase.getAllPlaces();
+        for (int i = 0; i < mPlaces.size(); i++) {
+            places[i] = mPlaces.get(i);
+            places[i].setColor(Place.getRandomColor(context));
+        }
+        return places;
+    }
+
+    private Place[] generatePlacesByGroup(Context context, int numPlaces, int groupId) {
+        Place[] places = new Place[numPlaces];
+        MyDatabase mDatabase = new MyDatabase(context);
+        List<Place> mPlaces = mDatabase.getPlacesByGroup(mDatabase.getGroup(groupId));
         for (int i = 0; i < mPlaces.size(); i++) {
             places[i] = mPlaces.get(i);
             places[i].setColor(Place.getRandomColor(context));
@@ -144,13 +148,8 @@ public class PlacesAdapter extends RecyclerView.Adapter<PlacesAdapter.ViewHolder
         notifyDataSetChanged();
     }
 
-    /*public void drawGoogleMap(String latitude, String longitude, String address) {
-        Bundle bundle = new Bundle();
-        Intent intentViewMap = new Intent(context, BasicMapActivity.class);
-        bundle.putDouble("latitude", Double.valueOf(latitude));
-        bundle.putDouble("longitude", Double.valueOf(longitude));
-        bundle.putString("address", address);
-        intentViewMap.putExtra("bundle", bundle);
-        context.startActivity(intentViewMap);
-    }*/
+    public void updateListByGroup(Context context, int numPlaces, int groupId) {
+        places = generatePlacesByGroup(context, numPlaces, groupId);
+        notifyDataSetChanged();
+    }
 }

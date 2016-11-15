@@ -138,17 +138,6 @@ public class MyDatabase extends SQLiteOpenHelper {
         return groupList;
     }
 
-    public int getDefaultGroupId(){
-        String selectQuery = "SELECT MIN(" + KEY_ID + ") FROM " + TABLE_GROUPS;
-
-        SQLiteDatabase db = this.getWritableDatabase();
-        Cursor cursor = db.rawQuery(selectQuery, null);
-
-        if(cursor.getCount()>0)
-            cursor.moveToFirst();
-        return cursor.getInt(0);
-    }
-
     // Getting groups Count
     public int getGroupsCount(){
         String countQuery = "SELECT * FROM " + TABLE_GROUPS;
@@ -383,7 +372,7 @@ public class MyDatabase extends SQLiteOpenHelper {
         ContentValues values = new ContentValues();
         values.put(KEY_NAME , event.getName());
         values.put(KEY_DESCRIPTION , event.getDescription());
-        values.put(KEY_LONGITUDE , event.getTime());
+        values.put(KEY_TIME , event.getTime());
         values.put(KEY_PLACE_ID , event.getPlaceId());
 
         // Updating row
@@ -403,6 +392,34 @@ public class MyDatabase extends SQLiteOpenHelper {
         SQLiteDatabase db = this.getWritableDatabase();
         db.delete(TABLE_EVENTS, null, null);
         db.close();
+    }
+
+    public List<Place> getPlacesByGroup(Group group){
+        List<Place> placeList = new ArrayList<>();
+
+        // Select all Query
+        String selectQuery = "SELECT * FROM " + TABLE_PLACES + " WHERE " + KEY_GROUP_ID + " = " + group.getId() + " ORDER BY " + KEY_ID + " DESC";
+
+        SQLiteDatabase db = this.getWritableDatabase();
+        Cursor cursor = db.rawQuery(selectQuery, null);
+
+        // Looping through all rows and adding to list
+        if(cursor.moveToFirst()){
+            do{
+                Place place = new Place();
+                place.setId(Integer.parseInt(cursor.getString(0)));
+                place.setName(cursor.getString(1));
+                place.setDescription(cursor.getString(2));
+                place.setLatitude(cursor.getString(3));
+                place.setLongitude(cursor.getString(4));
+                place.setAddress(cursor.getString(5));
+                place.setGroupId(Integer.parseInt(cursor.getString(6)));
+
+                // Adding place to list
+                placeList.add(place);
+            } while (cursor.moveToNext());
+        }
+        return placeList;
     }
 
     public int getPlacesCountByGroup(Group group){

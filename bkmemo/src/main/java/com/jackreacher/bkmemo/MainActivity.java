@@ -8,7 +8,9 @@ import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
+import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -24,8 +26,11 @@ import android.widget.Toast;
 import com.gordonwong.materialsheetfab.MaterialSheetFab;
 import com.gordonwong.materialsheetfab.MaterialSheetFabEventListener;
 import com.jackreacher.bkmemo.adapters.MainPagerAdapter;
+import com.jackreacher.bkmemo.fragments.PlaceFragment;
 import com.jackreacher.bkmemo.models.Group;
 import com.jackreacher.bkmemo.models.MyDatabase;
+import com.jackreacher.bkmemo.models.Place;
+import com.jackreacher.bkmemo.adapters.PlacesAdapter;
 
 import java.util.List;
 
@@ -42,6 +47,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 	private MyDatabase mDatabase;
 	private FloatingActionButton fab2;
 	private ViewPager viewpager;
+	private FragmentManager fragmentManager;
+	private MainPagerAdapter pagerAdapter;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -74,6 +81,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 		});
 		// Start the thread
 		t.start();
+
+		fragmentManager = getSupportFragmentManager();//Get Fragment Manager
 
 		setupActionBar();
 		setupDrawer();
@@ -138,6 +147,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 			tv.setText(Integer.toString(mDatabase.getPlacesCountByGroup(groups.get(i))));
 		}
 		menu.setGroupCheckable(R.id.nav_first_group, true, true);
+
+		navigationView.setCheckedItem(R.id.nav_all);
 	}
 
 	/**
@@ -146,7 +157,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 	private void setupTabs() {
 		// Setup view pager
 		viewpager = (ViewPager) findViewById(R.id.viewpager);
-		viewpager.setAdapter(new MainPagerAdapter(this, getSupportFragmentManager()));
+		pagerAdapter = new MainPagerAdapter(this, getSupportFragmentManager());
+		viewpager.setAdapter(pagerAdapter);
 		viewpager.setOffscreenPageLimit(MainPagerAdapter.NUM_ITEMS);
 		updatePage(viewpager.getCurrentItem());
 
@@ -299,10 +311,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 	public boolean onNavigationItemSelected(MenuItem item) {
 		// Handle navigation view item clicks here
 		int id = item.getItemId();
-		if (id == R.id.nav_all) {
 
+		RecyclerViewEmptySupport recyclerView = (RecyclerViewEmptySupport) findViewById(R.id.places_list);
+		PlacesAdapter placesAdapter = (PlacesAdapter) recyclerView.getAdapter();
+
+		if (id == R.id.nav_all) {
+			placesAdapter.updateList(this, mDatabase.getPlacesCount());
 		} else if (id == R.id.nav_setting) {
 
+		} else {
+			placesAdapter.updateListByGroup(this, mDatabase.getPlacesCountByGroup(mDatabase.getGroup(id)), id);
 		}
 		toggleDrawer();
 		return true;

@@ -60,7 +60,7 @@ public class PlaceFragment extends Fragment {
 		}
 
 		// Setup list
-		recyclerView = (RecyclerViewEmptySupport) view.findViewById(R.id.notes_list);
+		recyclerView = (RecyclerViewEmptySupport) view.findViewById(R.id.places_list);
 		recyclerView.setLayoutManager(new StaggeredGridLayoutManager(getNumColumns(),
 				StaggeredGridLayoutManager.VERTICAL));
 		recyclerView.setEmptyView(view.findViewById(R.id.empty_list));
@@ -96,6 +96,6 @@ public class PlaceFragment extends Fragment {
 	@Override
 	public void onResume(){
 		super.onResume();
-		mAdapter.updateList(getActivity(), getNumItems());
+		//mAdapter.updateList(getActivity(), getNumItems());
 	}
 }

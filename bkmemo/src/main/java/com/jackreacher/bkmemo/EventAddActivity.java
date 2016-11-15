@@ -154,13 +154,10 @@ public class EventAddActivity extends AppCompatActivity {
         dft = new SimpleDateFormat("dd/MM/yyyy", Locale.getDefault());
         String strDate = dft.format(cal.getTime());
         tvDate.setText(strDate);
-        //Định dạng giờ phút am/pm
-        dft = new SimpleDateFormat("hh:mm a", Locale.getDefault());
-        String strTime = dft.format(cal.getTime());
-        tvTime.setText(strTime);
         //Lấy giờ theo 24
         dft = new SimpleDateFormat("HH:mm", Locale.getDefault());
-        tvTime.setTag(dft.format(cal.getTime()));
+        String strTime = dft.format(cal.getTime());
+        tvTime.setText(strTime);
     }
 
     // To save state on device rotation
@@ -191,7 +188,7 @@ public class EventAddActivity extends AppCompatActivity {
     public void saveEvent(){
         // Creating Place
         int ID = mDatabase.addEvent(new Event(mName, mDescription,
-                tvDate.getText() + " " + tvTime.getText(), mPlaceId));
+                tvTime.getText() + " " + tvDate.getText(), mPlaceId));
 
         //onBackPressed();
         Intent i = new Intent(this, MainActivity.class);
@@ -288,31 +285,21 @@ public class EventAddActivity extends AppCompatActivity {
      */
     public void showTimePickerDialog() {
         TimePickerDialog.OnTimeSetListener callback = new TimePickerDialog.OnTimeSetListener() {
-            public void onTimeSet(TimePicker view,
-                                  int hourOfDay, int minute) {
-                //Xử lý lưu giờ và AM, PM
+            public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
                 String s = hourOfDay + ":" + minute;
-                int hourTam = hourOfDay;
-                if (hourTam > 12)
-                    hourTam = hourTam - 12;
-                tvTime.setText(hourTam + ":" + minute + (hourOfDay > 12 ? " PM" : " AM"));
+                tvTime.setText(s);
                 //Lưu giờ thực vào tag
-                tvTime.setTag(s);
-                //Lưu vết lại giờ vào hourFinish
+                //tvTime.setTag(s);
                 cal.set(Calendar.HOUR_OF_DAY, hourOfDay);
                 cal.set(Calendar.MINUTE, minute);
             }
         };
 
-        //Các lệnh dưới này xử lý ngày giờ trong TimePickerDialog
-        //sẽ giống với trên TextView khi mở nó lên
-        String s = tvTime.getTag() + "";
+        String s = tvTime.getText() + "";
         String strArr[] = s.split(":");
         int gio = Integer.parseInt(strArr[0]);
         int phut = Integer.parseInt(strArr[1]);
-        TimePickerDialog time = new TimePickerDialog(
-                this,
-                callback, gio, phut, true);
+        TimePickerDialog time = new TimePickerDialog(this, callback, gio, phut, true);
         time.setTitle(R.string.select_time_event);
         time.show();
     }

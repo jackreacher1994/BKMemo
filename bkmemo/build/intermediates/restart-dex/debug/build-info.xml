@@ -1,37 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="arm64-v8a,armeabi-v7a,armeabi"
-    api-level="22"
-    density="xhdpi"
+    abi="x86"
+    api-level="25"
+    density="420dpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="73398269535625"
+    timestamp="106508401697099"
     token="-3943974196213856896"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="721" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="713" />
+        duration="0" />
     <task
         name="verifier"
-        duration="178" />
+        duration="0" />
 
     <artifact
-        location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/outputs/apk/bkmemo-debug.apk"
-        type="MAIN" />
+        location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+        type="RESOURCES" />
 
     <build
-        timestamp="73398269535625"
+        timestamp="106180975974114"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/outputs/apk/bkmemo-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="106508401697099"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
+            type="RESOURCES" />
     </build>
 
 </instant-run>

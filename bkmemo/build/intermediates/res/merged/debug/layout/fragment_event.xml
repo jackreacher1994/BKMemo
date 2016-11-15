@@ -5,7 +5,7 @@
     android:layout_height="match_parent">
 
     <com.jackreacher.bkmemo.RecyclerViewEmptySupport xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/notes_list"
+        android:id="@+id/events_list"
         style="@style/Widget.MaterialSheetFab.Note.List"
         android:paddingBottom="@dimen/note_spacing" />
 
