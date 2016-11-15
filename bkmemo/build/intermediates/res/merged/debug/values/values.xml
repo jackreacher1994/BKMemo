@@ -830,6 +830,8 @@
     <string name="select_time_event">Chọn giờ hẹn</string>
     <string name="selected_count">%1$s mục đã chọn</string>
     <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="settings_ringtone_option">Nhạc báo thức</string>
+    <string name="settings_vibration_option">Rung</string>
     <string name="skip_button">SKIP</string>
     <string name="slide1_desc">TÌM HIỂU</string>
     <string name="slide1_title">Chào mừng đến với\nBKMemo</string>

@@ -92,12 +92,12 @@
         "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-xxhdpi/ic_cast_dark.png"
     },
     {
-        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_plusone_tall_off_client.png",
-        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/res/drawable-xxhdpi/ic_plusone_tall_off_client.png"
-    },
-    {
         "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_cast_light.png",
         "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/res/drawable-xxhdpi/ic_cast_light.png"
+    },
+    {
+        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_plusone_tall_off_client.png",
+        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/res/drawable-xxhdpi/ic_plusone_tall_off_client.png"
     },
     {
         "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_action_search.png",

@@ -58,7 +58,9 @@
     <string name="no_location_data_provided">No location data provided</string>
     <string name="service_not_available">Sorry, the service is not available</string>
     <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
-        <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+    <string name="settings_ringtone_option">Nhạc báo thức</string>
+    <string name="settings_vibration_option">Rung</string>
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
         AIzaSyDgHcQ5layIDKhveEXGczHZbrfnuSHi90Q
     </string>
 </resources>

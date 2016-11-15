@@ -86,6 +86,9 @@
             android:name="com.jackreacher.bkmemo.MapActivity"
             android:label=""
             android:windowSoftInputMode="stateAlwaysVisible" />
+        <activity
+            android:name="com.jackreacher.bkmemo.SettingsActivity"
+            android:label="@string/action_setting" />
 
         <!--
         Service to asynchronously fetch a location address using a Geocoder. Setting the

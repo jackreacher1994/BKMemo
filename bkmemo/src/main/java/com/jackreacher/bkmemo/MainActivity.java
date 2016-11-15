@@ -318,7 +318,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 		if (id == R.id.nav_all) {
 			placesAdapter.updateList(this, mDatabase.getPlacesCount());
 		} else if (id == R.id.nav_setting) {
-
+			Intent intent = new Intent(this, SettingsActivity.class);
+			startActivity(intent);
 		} else {
 			placesAdapter.updateListByGroup(this, mDatabase.getPlacesCountByGroup(mDatabase.getGroup(id)), id);
 		}
