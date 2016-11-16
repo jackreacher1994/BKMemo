@@ -46,6 +46,7 @@
     <string name="select_date_event">Chọn ngày hẹn</string>
     <string name="select_time_event">Chọn giờ hẹn</string>
     <string name="item_existed">Đã có mục này</string>
+    <string name="delete_event">Xóa cuộc hẹn này?</string>
     <string name="location_auto">Địa điểm hiện tại</string>
     <string name="location_hand">Địa điểm nhập</string>
     <string name="input_location">Nhập địa điểm</string>
@@ -56,7 +57,7 @@
     <string name="address_found">Address found</string>
     <string name="no_address_found">Sorry, no address found</string>
     <string name="no_location_data_provided">No location data provided</string>
-    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="service_not_available">Dịch vụ vị trí không khả dụng</string>
     <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
     <string name="settings_ringtone_option">Nhạc báo thức</string>
     <string name="settings_vibration_option">Rung</string>

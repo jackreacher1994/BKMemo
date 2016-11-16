@@ -39,8 +39,8 @@
                 android:layout_weight="1" />
 
             <ImageView
-                android:id="@+id/place_image"
-                android:src="@drawable/ic_access_alarms_grey600_24dp"
+                android:id="@+id/event_image"
+                android:src="@drawable/ic_action_delete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>

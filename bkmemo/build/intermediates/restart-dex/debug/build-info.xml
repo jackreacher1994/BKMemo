@@ -5,63 +5,40 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="127427704034851"
+    timestamp="132878925891650"
     token="-3943974196213856896"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="379" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="566" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="24" />
     <task
         name="verifier"
-        duration="0" />
+        duration="6" />
 
     <artifact
-        location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
-        type="DEX" />
+        location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="126357402165532"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="132813930531272"
+        verifier="BINARY_MANIFEST_FILE_CHANGE" >
         <artifact
             location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/outputs/apk/bkmemo-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="127138053445286"
-        verifier="R_CLASS_CHANGE" >
-        <artifact
-            location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
-        <artifact
-            location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="127329026542732"
+        timestamp="132878925891650"
         verifier="COMPATIBLE" >
         <artifact
-            location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/builds/debug/127329026542732/classes.dex"
+            location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/reload-dex/debug/classes.dex"
             type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="127427704034851"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

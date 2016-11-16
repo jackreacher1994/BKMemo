@@ -4,10 +4,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.LayoutRes;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
+import android.view.ActionMode;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.jackreacher.bkmemo.EventEditActivity;
 import com.jackreacher.bkmemo.R;
@@ -30,6 +33,8 @@ public class EventFragment extends Fragment {
 	private EventsAdapter mAdapter;
 	private RecyclerViewEmptySupport recyclerView;
 	private MyDatabase mDatabase;
+
+	private ActionMode mode;
 
 	public static EventFragment newInstance() {
 		return new EventFragment();

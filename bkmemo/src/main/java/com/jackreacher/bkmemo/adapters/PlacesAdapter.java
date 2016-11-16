@@ -46,7 +46,7 @@ public class PlacesAdapter extends RecyclerView.Adapter<PlacesAdapter.ViewHolder
         final Place placeModel = places[position];
         String name = placeModel.getName();
         String description = placeModel.getDescription();
-        String address = placeModel.getAddress();
+        final String address = placeModel.getAddress();
         String groupName = mDatabase.getGroup(placeModel.getGroupId()).getName();
         int color = placeModel.getColor();
 
@@ -71,6 +71,13 @@ public class PlacesAdapter extends RecyclerView.Adapter<PlacesAdapter.ViewHolder
 
         // Set background color
         ((CardView) holder.itemView).setCardBackgroundColor(color);
+
+        holder.imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                drawGoogleMap(Double.valueOf(placeModel.getLatitude()), Double.valueOf(placeModel.getLongitude()), address);
+            }
+        });
     }
 
     @Override
@@ -151,5 +158,15 @@ public class PlacesAdapter extends RecyclerView.Adapter<PlacesAdapter.ViewHolder
     public void updateListByGroup(Context context, int numPlaces, int groupId) {
         places = generatePlacesByGroup(context, numPlaces, groupId);
         notifyDataSetChanged();
+    }
+
+    public void drawGoogleMap(double latitude, double longitude, String address) {
+        Bundle bundle = new Bundle();
+        Intent intentViewMap = new Intent(context, BasicMapActivity.class);
+        bundle.putDouble("latitude", latitude);
+        bundle.putDouble("longitude", longitude);
+        bundle.putString("address", address);
+        intentViewMap.putExtra("bundle", bundle);
+        context.startActivity(intentViewMap);
     }
 }

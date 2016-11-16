@@ -8,12 +8,12 @@
         "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.1.0/res/drawable-mdpi/cast_ic_notification_1.png"
     },
     {
-        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi/common_signin_btn_text_normal_dark.9.png",
-        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/res/drawable-mdpi/common_signin_btn_text_normal_dark.9.png"
-    },
-    {
         "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png",
         "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/res/drawable-mdpi/common_signin_btn_icon_pressed_light.9.png"
+    },
+    {
+        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi/common_signin_btn_text_normal_dark.9.png",
+        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/res/drawable-mdpi/common_signin_btn_text_normal_dark.9.png"
     },
     {
         "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/drawable-mdpi/ic_cast_disabled_light.png",

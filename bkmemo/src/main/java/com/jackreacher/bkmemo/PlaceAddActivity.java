@@ -45,7 +45,7 @@ import java.util.List;
 /**
  * Created by JackReacher on 20/10/2016.
  */
-public class PlaceAddActivity extends AppCompatActivity implements View.OnClickListener, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
+public class PlaceAddActivity extends AppCompatActivity implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
     private Toolbar mToolbar;
     private EditText etName;
     private EditText etDescription;
@@ -167,7 +167,6 @@ public class PlaceAddActivity extends AppCompatActivity implements View.OnClickL
             public void afterTextChanged(Editable s) {}
         });
 
-        findViewById(R.id.btDrawMap).setOnClickListener(this);
         mAddressRequested = false;
         mAddressOutput = "";
         mLatitude = 0;
@@ -435,23 +434,6 @@ public class PlaceAddActivity extends AppCompatActivity implements View.OnClickL
             // Reset. Enable the Fetch Address button and stop showing the progress bar.
             mAddressRequested = false;
             updateUIWidgets();
-        }
-    }
-
-    public void drawGoogleMap(double latitude, double longitude, String address) {
-        Bundle bundle = new Bundle();
-        Intent intentViewMap = new Intent(this, BasicMapActivity.class);
-        bundle.putDouble("latitude", latitude);
-        bundle.putDouble("longitude", longitude);
-        bundle.putString("address", address);
-        intentViewMap.putExtra("bundle", bundle);
-        startActivity(intentViewMap);
-    }
-
-    @Override
-    public void onClick(View v) {
-        if (v.getId() == R.id.btDrawMap) {
-            drawGoogleMap(mLatitude, mLongitude, mAddressOutput);
         }
     }
 }

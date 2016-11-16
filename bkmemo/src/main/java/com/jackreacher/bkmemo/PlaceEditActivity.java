@@ -28,7 +28,7 @@ import java.util.List;
 /**
  * Created by JackReacher on 20/10/2016.
  */
-public class PlaceEditActivity extends AppCompatActivity implements View.OnClickListener {
+public class PlaceEditActivity extends AppCompatActivity {
     private Toolbar mToolbar;
     private EditText etName;
     private EditText etDescription;
@@ -105,8 +105,6 @@ public class PlaceEditActivity extends AppCompatActivity implements View.OnClick
             @Override
             public void afterTextChanged(Editable s) {}
         });
-
-        findViewById(R.id.btDrawMap).setOnClickListener(this);
 
         // Get place id from intent
         mReceivedID = Integer.parseInt(getIntent().getStringExtra(EXTRA_PLACE_ID));
@@ -227,23 +225,6 @@ public class PlaceEditActivity extends AppCompatActivity implements View.OnClick
 
             default:
                 return super.onOptionsItemSelected(item);
-        }
-    }
-
-    public void drawGoogleMap(double latitude, double longitude, String address) {
-        Bundle bundle = new Bundle();
-        Intent intentViewMap = new Intent(this, BasicMapActivity.class);
-        bundle.putDouble("latitude", latitude);
-        bundle.putDouble("longitude", longitude);
-        bundle.putString("address", address);
-        intentViewMap.putExtra("bundle", bundle);
-        startActivity(intentViewMap);
-    }
-
-    @Override
-    public void onClick(View v) {
-        if (v.getId() == R.id.btDrawMap) {
-            drawGoogleMap(mLatitude, mLongitude, mAddress);
         }
     }
 }

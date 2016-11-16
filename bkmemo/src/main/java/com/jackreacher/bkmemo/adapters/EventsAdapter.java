@@ -1,12 +1,15 @@
 package com.jackreacher.bkmemo.adapters;
 
 import android.content.Context;
+import android.content.DialogInterface;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.jackreacher.bkmemo.R;
@@ -40,7 +43,7 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.ViewHolder
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        Event eventModel = events[position];
+        final Event eventModel = events[position];
         String name = eventModel.getName();
         String description = eventModel.getDescription();
         String address = mDatabase.getPlace(eventModel.getPlaceId()).getAddress();
@@ -68,6 +71,27 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.ViewHolder
 
         // Set background color
         ((CardView) holder.itemView).setCardBackgroundColor(color);
+
+        holder.imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(context);
+                builder.setMessage(R.string.delete_event)
+                        .setPositiveButton(R.string.action_ok, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                mDatabase.deleteEvent(eventModel);
+                                updateList(context, mDatabase.getEventsCount());
+                            }
+                        })
+                        .setNegativeButton(R.string.action_cancel, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                // User cancelled the dialog
+                            }
+                        });
+                builder.create();
+                builder.show();
+            }
+        });
     }
 
     @Override
@@ -104,6 +128,7 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.ViewHolder
         public TextView descriptionTextView;
         public TextView addressTextView;
         public TextView timeTextView;
+        public ImageView imageView;
 
         public ViewHolder(final View itemView) {
             super(itemView);
@@ -111,6 +136,7 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.ViewHolder
             descriptionTextView = (TextView) itemView.findViewById(R.id.event_description);
             addressTextView = (TextView) itemView.findViewById(R.id.event_address);
             timeTextView = (TextView) itemView.findViewById(R.id.event_time);
+            imageView = (ImageView) itemView.findViewById(R.id.event_image);
 
             // Setup the click listener
             itemView.setOnClickListener(new View.OnClickListener() {
