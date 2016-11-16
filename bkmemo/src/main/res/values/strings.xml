@@ -3,13 +3,13 @@
     <string name="opendrawer">Open drawer</string>
     <string name="app_intro">App Intro</string>
     <string name="app_name">BKMemo</string>
-    <string name="slide1_title">Chào mừng đến với\nBKMemo</string>
+    <string name="slide1_title">Chào mừng</string>
     <string name="slide1_desc">TÌM HIỂU</string>
-    <string name="slide2_title">Nhớ và phân nhóm\nđịa điểm</string>
+    <string name="slide2_title">Phân nhóm địa điểm</string>
     <string name="slide2_desc">Xem địa điểm trên bản đồ</string>
     <string name="slide3_title">Thiết lập cuộc hẹn</string>
     <string name="slide3_desc">Không bỏ lỡ cuộc hẹn\nquan trọng</string>
-    <string name="slide4_title">Bạn đã sẵn sàng?</string>
+    <string name="slide4_title">Xem trên bản đồ</string>
     <string name="slide4_desc">BẮT ĐẦU</string>
     <string name="action_search">Tìm kiếm</string>
     <string name="action_delete">Xóa</string>

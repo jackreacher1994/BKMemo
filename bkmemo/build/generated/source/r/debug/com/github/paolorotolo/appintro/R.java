@@ -514,9 +514,9 @@ public final class R {
 		public static final int ic_navigate_before_white = 0x7f02009b;
 		public static final int ic_navigate_next_white = 0x7f02009c;
 		public static final int ic_skip_white = 0x7f0200aa;
-		public static final int indicator_dot_grey = 0x7f0200af;
-		public static final int indicator_dot_white = 0x7f0200b0;
-		public static final int notification_template_icon_bg = 0x7f0200c1;
+		public static final int indicator_dot_grey = 0x7f0200ab;
+		public static final int indicator_dot_white = 0x7f0200ac;
+		public static final int notification_template_icon_bg = 0x7f0200c5;
 	}
 	public static final class id {
 		public static final int action0 = 0x7f1000e3;

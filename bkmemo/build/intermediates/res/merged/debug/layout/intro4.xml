@@ -33,7 +33,7 @@
             android:layout_gravity="center"
             android:paddingLeft="16dp"
             android:paddingRight="16dp"
-            android:src="@drawable/ic_slide4" />
+            android:src="@drawable/rsz_slide4" />
     </LinearLayout>
 
     <TextView

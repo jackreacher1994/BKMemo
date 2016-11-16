@@ -2,427 +2,418 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.1.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="3b05c18f60969ecc2ba49c0409c4b96be2d9cb0c">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-8.1.0_f201f4a24dd301002c6eb2401df99426defbed5b/classes.dex" />
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-8.1.0_f201f4a24dd301002c6eb2401df99426defbed5b.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.gordonwong/material-sheet-fab/1.2.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_b65e50944deaf9681392ac6fc2599fa7288b4f0b/classes.dex" />
+        sha1="0f42553dacf79ae4c80d96a7ca0eef30099c1c7a">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.gordonwong-material-sheet-fab-1.2.1_ebeb77a36d0a5fcb1d47600d26e264eeb1bfb2d2.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_fe29e46577268f1857b2aa707e2441637f8f0271/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-8.1.0_e9b02b8aa973c8e05d8f180c4e3a4f532dd77156/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-8.1.0_31c04b164a108b5199f738811a50b7cd30224b2b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="3178362320bcf51228835b60ff978efadfd1f783">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-8.1.0_63fc14c7dae617fbef7cbf54adeff22bd613c91a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_18d6bd51b0876c36557e25217e8e5a3b3af5f948/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-8.1.0_7defbf4004eefb778a04804084560f6e1d7fe8ac/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.2.1_6df0335e757e9b6faa71b244dc1265c4419eef02/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_d304333017b3bef118d39f4c6a3b2a0d48368e9c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_0edf3602bc3f7037107d89344ad8491892270381/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_abc6b8a25f67b2faacb8f40406b7dd229126118b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_b337fb74e61b7c824ffd07f49a8be26e52554ebd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.1.0_662cccf2db8e93a97512b2c612fdde04edefc925/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-8.1.0_638c7f833c9461c6a1eacb9a4e3709f1264f9619/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_875337ad91fb4707ce06f5515041b4451c00552b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_de86a6abf61f8b1eceaa67957407739dbd6b05ea/classes.dex" />
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_de86a6abf61f8b1eceaa67957407739dbd6b05ea.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.0_8a3826853c343c70d7f08523af4fe8edc99b2c4d/classes.dex" />
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_abc6b8a25f67b2faacb8f40406b7dd229126118b.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.1.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/jackreacher/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-8.1.0_3f3ec7db70e2ef89aca8a3467c2a17d79501c333/classes.dex" />
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_18d6bd51b0876c36557e25217e8e5a3b3af5f948.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_10dfd32166900702af755895965dc8d2c3bb5be6/classes.dex" />
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_d304333017b3bef118d39f4c6a3b2a0d48368e9c.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jackreacher/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_c124642367712b9f44e5ffb0e383ac714c684a0d/classes.dex" />
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_875337ad91fb4707ce06f5515041b4451c00552b.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-8.1.0_9a49ab131dad6d199575debe8684f402a166e5bd/classes.dex" />
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_b337fb74e61b7c824ffd07f49a8be26e52554ebd.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.1.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="997773777cf3904c11d6764fe3b7668538220e49">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-8.1.0_5014240d04ad424c878fdaca7189d62e9d1e0ab3/classes.dex" />
+        sha1="b92002cb2f0e11a226ac5bac6dff1dc2a9d0b774">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-8.1.0_638c7f833c9461c6a1eacb9a4e3709f1264f9619.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-22.2.0_ac73e2b04b27e5fc9852236e12e05f0f6fc56030/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.1.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="dcb5b75baf05d92e61d5706737200ee55949f97b">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-8.1.0_7b2ce5a65906f898920e035b339298ec2fea55f9/classes.dex" />
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-8.1.0_7b2ce5a65906f898920e035b339298ec2fea55f9.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/jackreacher/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="028b90fa5172444ed06fbcf981d7ff4eabfe5f1b">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_bf66fdb15de355d83e8c2c31d6d35f7f28326784/classes.dex" />
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/library-2.4.0_c124642367712b9f44e5ffb0e383ac714c684a0d.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_9c68da4a459468baa006003e962ff84efbccd936/classes.dex" />
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.android.support-design-24.2.1_10dfd32166900702af755895965dc8d2c3bb5be6.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.1.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_f99ae98426529e82c4fdfccade10d471abb384a5/classes.dex" />
+        sha1="d61920aba361832a9545a43fa8c9453eb02f18f7">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-8.1.0_e9b02b8aa973c8e05d8f180c4e3a4f532dd77156.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.1.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_a34311e37e463af7b868d659ed96d05d87cb0279/classes.dex" />
+        sha1="d93480da1d303122ee67dc3bc23e6297bdef9951">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-8.1.0_3f3ec7db70e2ef89aca8a3467c2a17d79501c333.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-8.1.0_26e646a2b14d756f3db8e99be8a4e96fd570e98e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.1.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="3c729e6d76a36c5dc27e6a4c4009296f49eaa88a">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-8.1.0_4427794be2ab72eb91b8c533fe2ed8e3fe660455/classes.dex" />
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-8.1.0_4427794be2ab72eb91b8c533fe2ed8e3fe660455.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_911c62e4923721a62f2faa8b102f734007925fb7/classes.dex" />
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-24.2.1_911c62e4923721a62f2faa8b102f734007925fb7.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.1.0/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="0a3aabb1ec300be7362c318852e676e603f1f2ca">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5603dd3b3ad588e54d9fba5916971cdef3a10ca1/classes.dex" />
+        sha1="3aed37c38c56679602255dd72ef356da5d327cda">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-8.1.0_26e646a2b14d756f3db8e99be8a4e96fd570e98e.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-8.1.0_d64f6d24fa07a6df2abdabb3db60adaa9b3e2307/classes.dex" />
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-8.1.0_d64f6d24fa07a6df2abdabb3db60adaa9b3e2307.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="17449c47df35c754b257532052f1270c444f7993">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-8.1.0_cc11d1c42fbed7de33f6a1e80aebf29a52f73932/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.1.0_99a22ef4291aa4fb6e6070607d4e4b458cebdf03/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_a8f41f7137d9256868fa40485f18461503851931/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-8.1.0_125e2c1580e41e5527213d01876aa2e2a0faccdb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="482de223655d06253cc6a4955d653f8994169500">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-measurement-8.1.0_b51877c16b0a66de66ad3ffe4c980d353215527b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_751ede306dd8c1ddd70477f329758cbcc6ef2ade/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.1.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="993834cb17d07d51b92db89d2c330243592ebf77">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-8.1.0_d37a700529e768a705c4d3d3080ed38652dfa489/classes.dex" />
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-8.1.0_d37a700529e768a705c4d3d3080ed38652dfa489.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.github.asyl.animation/arcanimator/1.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="31dbe885ef6a9d6a88412750e85784f60b95cb90">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.asyl.animation-arcanimator-1.0.0_e0fd144731848f5ea197ea1fbbeec0664984e493/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-8.1.0_dbe236c068c11050fdec4bfb05f88384e2fc53e3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.1.0_390a7af36fd380a8f340c7fede06bf35d83ee2c2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_bb113ea17e82e1d163ebbde04fe5b2f6819db0a9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.2"
-        sha1="95758a2905669affbffc5ddd262921d375674fad">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-8.1.0_78a5d145f5f026e21d4d90175e57a50cec8f1657/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="24.0.2"
         sha1="461cd433c2723981c7536d60acfcf3d86f3105fb">
-        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.paolorotolo-appintro-4.1.0_f26bce016e5e83265ba13b05bdb64811d715cdcb/classes.dex" />
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.github.paolorotolo-appintro-4.1.0_f26bce016e5e83265ba13b05bdb64811d715cdcb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9cf8c0ef60847621c7ad00b4f78dbfc9daba4af2">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-8.1.0_125e2c1580e41e5527213d01876aa2e2a0faccdb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-8.1.0_99a22ef4291aa4fb6e6070607d4e4b458cebdf03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.github.asyl.animation/arcanimator/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="31dbe885ef6a9d6a88412750e85784f60b95cb90">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.github.asyl.animation-arcanimator-1.0.0_e0fd144731848f5ea197ea1fbbeec0664984e493.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_bb113ea17e82e1d163ebbde04fe5b2f6819db0a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="95758a2905669affbffc5ddd262921d375674fad">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-8.1.0_78a5d145f5f026e21d4d90175e57a50cec8f1657.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_b65e50944deaf9681392ac6fc2599fa7288b4f0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_fe29e46577268f1857b2aa707e2441637f8f0271.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="041d93cf0533591c29d1d7263b2fa114dbfb20bd">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-8.1.0_7defbf4004eefb778a04804084560f6e1d7fe8ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-8.1.0_662cccf2db8e93a97512b2c612fdde04edefc925.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="3178362320bcf51228835b60ff978efadfd1f783">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-8.1.0_63fc14c7dae617fbef7cbf54adeff22bd613c91a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.android.support-mediarouter-v7-22.2.0_ac73e2b04b27e5fc9852236e12e05f0f6fc56030.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_8a3826853c343c70d7f08523af4fe8edc99b2c4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-24.2.1_6df0335e757e9b6faa71b244dc1265c4419eef02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_9c68da4a459468baa006003e962ff84efbccd936.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_0edf3602bc3f7037107d89344ad8491892270381.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-8.1.0_5014240d04ad424c878fdaca7189d62e9d1e0ab3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="325788a04b436a0bccbc5b4c54cf0f12ebdcbd2d">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-8.1.0_9a49ab131dad6d199575debe8684f402a166e5bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="97f3b099801a9ad9d70e835b9125273e986eb68d">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-8.1.0_31c04b164a108b5199f738811a50b7cd30224b2b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_f99ae98426529e82c4fdfccade10d471abb384a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_a34311e37e463af7b868d659ed96d05d87cb0279.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_751ede306dd8c1ddd70477f329758cbcc6ef2ade.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="17449c47df35c754b257532052f1270c444f7993">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-vision-8.1.0_cc11d1c42fbed7de33f6a1e80aebf29a52f73932.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d294caf562c4c678b2ef351662a0ca6f1a4d06c0">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-8.1.0_dbe236c068c11050fdec4bfb05f88384e2fc53e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-8.1.0_390a7af36fd380a8f340c7fede06bf35d83ee2c2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="482de223655d06253cc6a4955d653f8994169500">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-measurement-8.1.0_b51877c16b0a66de66ad3ffe4c980d353215527b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_a8f41f7137d9256868fa40485f18461503851931.jar" />
     </item>
 
 </items>
