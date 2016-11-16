@@ -12,10 +12,6 @@
         "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/res/menu/menu_main.xml"
     },
     {
-        "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/menu/context_menu.xml",
-        "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/res/menu/context_menu.xml"
-    },
-    {
         "merged": "/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/res/merged/debug/menu/menu_group.xml",
         "source": "/Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/res/menu/menu_group.xml"
     }

@@ -10,6 +10,7 @@ import android.view.ActionMode;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.jackreacher.bkmemo.EventEditActivity;
@@ -33,6 +34,7 @@ public class EventFragment extends Fragment {
 	private EventsAdapter mAdapter;
 	private RecyclerViewEmptySupport recyclerView;
 	private MyDatabase mDatabase;
+	private RelativeLayout layoutEvent;
 
 	private ActionMode mode;
 
@@ -64,12 +66,14 @@ public class EventFragment extends Fragment {
 			IDList.add(mArray.get(i).getId());
 		}
 
+		layoutEvent = (RelativeLayout) view.findViewById(R.id.layoutEvent);
+
 		// Setup list
 		RecyclerViewEmptySupport recyclerView = (RecyclerViewEmptySupport) view.findViewById(R.id.events_list);
 		recyclerView.setLayoutManager(new StaggeredGridLayoutManager(getNumColumns(),
 				StaggeredGridLayoutManager.VERTICAL));
 		recyclerView.setEmptyView(view.findViewById(R.id.empty_list));
-		mAdapter = new EventsAdapter(getActivity(), getNumItems());
+		mAdapter = new EventsAdapter(getActivity(), getNumItems(), layoutEvent);
 		mAdapter.setOnItemClickListener(new EventsAdapter.OnItemClickListener() {
 			@Override
 			public void onItemClick(View view, int position) {

@@ -8,6 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.StringTokenizer;
 
 /**
  * Created by JackReacher on 15/10/2016.
@@ -149,6 +150,27 @@ public class MyDatabase extends SQLiteOpenHelper {
         return count;
     }
 
+    public int getGroupsCountByName(Group group, String inputName){
+        String countQuery = "SELECT * FROM " + TABLE_GROUPS + " WHERE " + KEY_NAME + " = '"
+                + inputName + "'"  + " AND " + KEY_ID + " != " + group.getId();
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.rawQuery(countQuery,null);
+        int count = cursor.getCount();
+        cursor.close();
+
+        return count;
+    }
+
+    public int getGroupsCountByName(String groupName){
+        String countQuery = "SELECT * FROM " + TABLE_GROUPS + " WHERE " + KEY_NAME + " = '" + groupName + "'";
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.rawQuery(countQuery,null);
+        int count = cursor.getCount();
+        cursor.close();
+
+        return count;
+    }
+
     // Updating single group
     public int updateGroup(Group group){
         SQLiteDatabase db = this.getWritableDatabase();
@@ -258,6 +280,27 @@ public class MyDatabase extends SQLiteOpenHelper {
         return count;
     }
 
+    public int getPlacesCountByName(Place place, String inputName){
+        String countQuery = "SELECT * FROM " + TABLE_PLACES + " WHERE " + KEY_NAME + " = '"
+                + inputName + "'" + " AND " + KEY_ID + " != " + place.getId();
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.rawQuery(countQuery,null);
+        int count = cursor.getCount();
+        cursor.close();
+
+        return count;
+    }
+
+    public int getPlacesCountByName(String placeName){
+        String countQuery = "SELECT * FROM " + TABLE_PLACES + " WHERE " + KEY_NAME + " = '" + placeName + "'";
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.rawQuery(countQuery,null);
+        int count = cursor.getCount();
+        cursor.close();
+
+        return count;
+    }
+
     // Updating single place
     public int updatePlace(Place place){
         SQLiteDatabase db = this.getWritableDatabase();
@@ -358,6 +401,27 @@ public class MyDatabase extends SQLiteOpenHelper {
     // Getting events Count
     public int getEventsCount(){
         String countQuery = "SELECT * FROM " + TABLE_EVENTS;
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.rawQuery(countQuery,null);
+        int count = cursor.getCount();
+        cursor.close();
+
+        return count;
+    }
+
+    public int getEventsCountByName(Event event, String inputName){
+        String countQuery = "SELECT * FROM " + TABLE_EVENTS + " WHERE " + KEY_NAME + " = '"
+                + inputName + "'"  + " AND " + KEY_ID + " != " + event.getId();
+        SQLiteDatabase db = this.getReadableDatabase();
+        Cursor cursor = db.rawQuery(countQuery,null);
+        int count = cursor.getCount();
+        cursor.close();
+
+        return count;
+    }
+
+    public int getEventsCountByName(String eventName){
+        String countQuery = "SELECT * FROM " + TABLE_EVENTS + " WHERE " + KEY_NAME + " = '" + eventName + "'";
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.rawQuery(countQuery,null);
         int count = cursor.getCount();

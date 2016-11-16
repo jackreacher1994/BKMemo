@@ -1,16 +1,8 @@
 package com.jackreacher.bkmemo;
 
-import android.content.BroadcastReceiver;
-import android.content.ComponentName;
-import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.IntentFilter;
 import android.location.Geocoder;
 import android.location.Location;
-import android.location.LocationListener;
-import android.location.LocationManager;
-import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.ResultReceiver;
@@ -34,12 +26,11 @@ import android.widget.Toast;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationServices;
-import com.jackreacher.bkmemo.adapters.CustomSpinnerGroupAdapter;
+import com.jackreacher.bkmemo.adapters.MainPagerAdapter;
 import com.jackreacher.bkmemo.models.Group;
 import com.jackreacher.bkmemo.models.MyDatabase;
 import com.jackreacher.bkmemo.models.Place;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -54,7 +45,6 @@ public class PlaceAddActivity extends AppCompatActivity implements GoogleApiClie
     private Spinner spGroup;
     private MyDatabase mDatabase;
     private int mGroupId;
-
     private double mLatitude;
     private double mLongitude;
     private TextView tvAddress;
@@ -233,7 +223,14 @@ public class PlaceAddActivity extends AppCompatActivity implements GoogleApiClie
         // Creating Place
         int ID = mDatabase.addPlace(new Place(mName, mDescription, String.valueOf(mLatitude), String.valueOf(mLongitude), mAddressOutput, mGroupId));
 
-        onBackPressed();
+        //onBackPressed();
+        Intent i = new Intent(this, MainActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putInt("numTab", MainPagerAdapter.PLACE_POS);
+        bundle.putInt("addPlaceResult", 1);
+        i.putExtra("bundle", bundle);
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
     }
 
     // On pressing the back button
@@ -241,6 +238,9 @@ public class PlaceAddActivity extends AppCompatActivity implements GoogleApiClie
     public void onBackPressed() {
         super.onBackPressed();
         Intent i = new Intent(this, MainActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putInt("numTab", MainPagerAdapter.PLACE_POS);
+        i.putExtra("bundle", bundle);
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
     }
@@ -268,6 +268,10 @@ public class PlaceAddActivity extends AppCompatActivity implements GoogleApiClie
 
                 if (etName.getText().toString().length() == 0)
                     inputLayoutName.setError(getString(R.string.required_field));
+                else if(mDatabase.getPlacesCountByName(mName) == 1) {
+                    inputLayoutName.setError(getString(R.string.item_existed));
+                    etName.setSelection(etName.length());
+                }
                 else
                     savePlace();
 

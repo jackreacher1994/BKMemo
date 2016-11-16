@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:1:1-91:12
+ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:1:1-92:12
 	package
 		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:2:5-37
 		INJECTED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml
@@ -63,7 +63,7 @@ ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.x
 	android:name
 		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:15:22-77
 application
-ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:17:5-89:19
+ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:17:5-90:19
 MERGED from [com.gordonwong:material-sheet-fab:1.2.1] /Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.gordonwong/material-sheet-fab/1.2.1/AndroidManifest.xml:10:5-20
 MERGED from [com.github.asyl.animation:arcanimator:1.0.0] /Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.github.asyl.animation/arcanimator/1.0.0/AndroidManifest.xml:11:5-12:19
 MERGED from [com.android.support:design:24.2.1] /Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.android.support/design/24.2.1/AndroidManifest.xml:22:5-20
@@ -123,91 +123,93 @@ ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.x
 	android:name
 		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:35:13-58
 activity#com.jackreacher.bkmemo.MainActivity
-ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:38:9-43:20
+ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:38:9-44:20
+	android:theme
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:39:13-60
 	android:name
 		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:38:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:39:13-42:29
+ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:40:13-43:29
 action#android.intent.action.MAIN
-ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:40:17-69
+ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:41:17-69
 	android:name
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:40:25-66
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:41:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:41:17-77
+ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:42:17-77
 	android:name
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:41:27-74
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:42:27-74
 activity#com.jackreacher.bkmemo.GroupActivity
-ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:45:9-46:60
+ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:46:9-47:60
 	android:label
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:46:13-57
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:47:13-57
 	android:name
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:45:19-48
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:46:19-48
 activity#com.jackreacher.bkmemo.PlaceAddActivity
-ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:48:9-50:64
+ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:49:9-51:64
 	android:label
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:49:13-61
-	android:windowSoftInputMode
 		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:50:13-61
+	android:windowSoftInputMode
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:51:13-61
 	android:name
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:48:19-51
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:49:19-51
 activity#com.jackreacher.bkmemo.PlaceEditActivity
-ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:52:9-54:64
+ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:53:9-55:64
 	android:label
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:53:13-62
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:54:13-62
 	android:windowSoftInputMode
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:54:13-61
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:55:13-61
 	android:name
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:52:19-52
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:53:19-52
 activity#com.jackreacher.bkmemo.EventAddActivity
-ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:56:9-58:64
+ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:57:9-59:64
 	android:label
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:57:13-61
-	android:windowSoftInputMode
 		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:58:13-61
+	android:windowSoftInputMode
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:59:13-61
 	android:name
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:56:19-51
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:57:19-51
 activity#com.jackreacher.bkmemo.EventEditActivity
-ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:60:9-62:64
+ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:61:9-63:64
 	android:label
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:61:13-62
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:62:13-62
 	android:windowSoftInputMode
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:62:13-61
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:63:13-61
 	android:name
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:60:19-52
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:61:19-52
 activity#com.jackreacher.bkmemo.IntroActivity
-ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:64:9-67:54
+ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:65:9-68:54
 	android:label
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:66:13-46
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:67:13-46
 	android:theme
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:67:13-51
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:68:13-51
 	android:name
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:65:13-42
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:66:13-42
 activity#com.jackreacher.bkmemo.BasicMapActivity
-ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:69:9-71:32
+ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:70:9-72:32
 	android:label
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:71:13-29
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:72:13-29
 	android:name
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:70:13-45
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:71:13-45
 activity#com.jackreacher.bkmemo.MapActivity
-ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:73:9-76:64
+ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:74:9-77:64
 	android:label
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:75:13-29
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:76:13-29
 	android:windowSoftInputMode
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:76:13-61
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:77:13-61
 	android:name
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:74:13-40
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:75:13-40
 activity#com.jackreacher.bkmemo.SettingsActivity
-ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:78:9-80:54
+ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:79:9-81:54
 	android:label
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:80:13-51
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:81:13-51
 	android:name
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:79:13-45
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:80:13-45
 service#com.jackreacher.bkmemo.FetchAddressIntentService
-ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:85:9-87:39
+ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:86:9-88:39
 	android:exported
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:87:13-37
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:88:13-37
 	android:name
-		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:86:13-54
+		ADDED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml:87:13-54
 uses-sdk
 INJECTED from /Users/jackreacher/Downloads/BKMemo/bkmemo/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.gordonwong:material-sheet-fab:1.2.1] /Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/exploded-aar/com.gordonwong/material-sheet-fab/1.2.1/AndroidManifest.xml:6:5-8:41

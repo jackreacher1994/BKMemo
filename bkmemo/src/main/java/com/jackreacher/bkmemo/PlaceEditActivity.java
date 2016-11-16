@@ -16,9 +16,8 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.jackreacher.bkmemo.adapters.CustomSpinnerGroupAdapter;
+import com.jackreacher.bkmemo.adapters.MainPagerAdapter;
 import com.jackreacher.bkmemo.models.Group;
 import com.jackreacher.bkmemo.models.MyDatabase;
 import com.jackreacher.bkmemo.models.Place;
@@ -183,7 +182,14 @@ public class PlaceEditActivity extends AppCompatActivity {
         // Update place
         mDatabase.updatePlace(mReceivedPlace);
 
-        onBackPressed();
+        //onBackPressed();
+        Intent i = new Intent(this, MainActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putInt("numTab", MainPagerAdapter.PLACE_POS);
+        bundle.putInt("updatePlaceResult", 1);
+        i.putExtra("bundle", bundle);
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
     }
 
     // On pressing the back button
@@ -191,6 +197,9 @@ public class PlaceEditActivity extends AppCompatActivity {
     public void onBackPressed() {
         super.onBackPressed();
         Intent i = new Intent(this, MainActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putInt("numTab", MainPagerAdapter.PLACE_POS);
+        i.putExtra("bundle", bundle);
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
     }
@@ -217,9 +226,13 @@ public class PlaceEditActivity extends AppCompatActivity {
                 etDescription.setText(mDescription);
 
                 if (etName.getText().toString().length() == 0)
-                    inputLayoutName.setError("Place name cannot be blank!");
-                else
+                    inputLayoutName.setError(getString(R.string.required_field));
+                else if(mDatabase.getPlacesCountByName(mReceivedPlace, mName) == 0)
                     updatePlace();
+                else {
+                    inputLayoutName.setError(getString(R.string.item_existed));
+                    etName.setSelection(etName.length());
+                }
 
                 return true;
 

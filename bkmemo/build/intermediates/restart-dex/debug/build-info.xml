@@ -5,40 +5,33 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="132878925891650"
+    timestamp="145195356913981"
     token="-3943974196213856896"
-    verifier="COMPATIBLE" >
+    verifier="MANIFEST_FILE_CHANGE" >
 
     <task
         name="javac"
-        duration="379" />
+        duration="632" />
     <task
         name="instant-run-dex"
-        duration="566" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="24" />
+        duration="18" />
     <task
         name="verifier"
-        duration="6" />
+        duration="1" />
 
     <artifact
-        location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/reload-dex/debug/classes.dex"
-        type="RELOAD_DEX" />
+        location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/outputs/apk/bkmemo-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="132813930531272"
-        verifier="BINARY_MANIFEST_FILE_CHANGE" >
+        timestamp="145195356913981"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/outputs/apk/bkmemo-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="132878925891650"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="/Users/jackreacher/Downloads/BKMemo/bkmemo/build/intermediates/reload-dex/debug/classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

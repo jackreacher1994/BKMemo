@@ -21,16 +21,13 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
-import com.jackreacher.bkmemo.adapters.CustomSpinnerPlaceAdapter;
 import com.jackreacher.bkmemo.adapters.MainPagerAdapter;
 import com.jackreacher.bkmemo.models.Event;
 import com.jackreacher.bkmemo.models.MyDatabase;
 import com.jackreacher.bkmemo.models.Place;
 
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.List;
-import java.util.Locale;
 
 /**
  * Created by JackReacher on 20/10/2016.
@@ -203,7 +200,14 @@ public class EventEditActivity extends AppCompatActivity {
         // Update place
         mDatabase.updateEvent(mReceivedEvent);
 
-        onBackPressed();
+        //onBackPressed();
+        Intent i = new Intent(this, MainActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putInt("numTab", MainPagerAdapter.EVENT_POS);
+        bundle.putInt("updateEventResult", 1);
+        i.putExtra("bundle", bundle);
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
     }
 
     // On pressing the back button
@@ -240,9 +244,13 @@ public class EventEditActivity extends AppCompatActivity {
                 etDescription.setText(mDescription);
 
                 if (etName.getText().toString().length() == 0)
-                    inputLayoutName.setError("Place name cannot be blank!");
-                else
+                    inputLayoutName.setError(getString(R.string.required_field));
+                else if(mDatabase.getEventsCountByName(mReceivedEvent, mName) == 0)
                     updateEvent();
+                else {
+                    inputLayoutName.setError(getString(R.string.item_existed));
+                    etName.setSelection(etName.length());
+                }
 
                 return true;
 

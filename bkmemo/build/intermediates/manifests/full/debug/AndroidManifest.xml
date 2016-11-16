@@ -48,7 +48,9 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name="com.jackreacher.bkmemo.MainActivity" >
+        <activity
+            android:name="com.jackreacher.bkmemo.MainActivity"
+            android:theme="@style/Theme.AppCompat.Launcher" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

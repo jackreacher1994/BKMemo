@@ -13,7 +13,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="9"
-            android:hint="@string/input_location" >
+            android:inputType="textMultiLine"
+            android:hint="@string/place" >
             <requestFocus />
         </EditText>
 

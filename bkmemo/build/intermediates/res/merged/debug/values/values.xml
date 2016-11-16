@@ -789,10 +789,15 @@
     <string name="et_place_longitude">Vĩ độ</string>
     <string name="et_place_name">Địa điểm</string>
     <string name="event">Cuộc hẹn</string>
+    <string name="event_added">Đã thêm cuộc hẹn</string>
+    <string name="event_deleted">Đã xóa cuộc hẹn</string>
+    <string name="event_updated">Đã cập nhật cuộc hẹn</string>
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
         AIzaSyDgHcQ5layIDKhveEXGczHZbrfnuSHi90Q
     </string>
     <string name="group">Nhóm</string>
+    <string name="group_added">Đã thêm nhóm</string>
+    <string name="group_updated">Đã cập nhật nhóm</string>
     <string name="input_location">Nhập địa điểm</string>
     <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
     <string name="item_existed">Đã có mục này</string>
@@ -820,11 +825,15 @@
     <string name="mr_user_route_category_name">Devices</string>
     <string name="no_address_found">Sorry, no address found</string>
     <string name="no_geocoder_available">No geocoder available</string>
+    <string name="no_group">Bạn chưa tạo nhóm nào</string>
     <string name="no_location_data_provided">No location data provided</string>
+    <string name="no_place">Bạn chưa tạo địa điểm nào</string>
     <string name="no_select_item">Chưa chọn mục nào</string>
     <string name="opendrawer">Open drawer</string>
     <string name="place">Địa điểm</string>
+    <string name="place_added">Đã thêm địa điểm</string>
     <string name="place_group">Nhóm địa điểm</string>
+    <string name="place_updated">Đã cập nhật địa điểm</string>
     <string name="required_field">Không được để trống trường này</string>
     <string name="search_menu_title">Search</string>
     <string name="select_date_event">Chọn ngày hẹn</string>
@@ -2195,6 +2204,10 @@
     <style name="Theme.AppCompat.Dialog.Alert" parent="Base.Theme.AppCompat.Dialog.Alert"/>
     <style name="Theme.AppCompat.Dialog.MinWidth" parent="Base.Theme.AppCompat.Dialog.MinWidth"/>
     <style name="Theme.AppCompat.DialogWhenLarge" parent="Base.Theme.AppCompat.DialogWhenLarge">
+    </style>
+    <style name="Theme.AppCompat.Launcher">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/launch_screen</item>
     </style>
     <style name="Theme.AppCompat.Light" parent="Base.Theme.AppCompat.Light"/>
     <style name="Theme.AppCompat.Light.DarkActionBar" parent="Base.Theme.AppCompat.Light.DarkActionBar"/>

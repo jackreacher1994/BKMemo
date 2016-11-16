@@ -3,49 +3,32 @@ package com.jackreacher.bkmemo;
 import android.app.DatePickerDialog;
 import android.app.TimePickerDialog;
 import android.content.Intent;
-import android.location.Geocoder;
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.ResultReceiver;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.CompoundButton;
 import android.widget.DatePicker;
 import android.widget.EditText;
-import android.widget.ProgressBar;
 import android.widget.Spinner;
-import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.TimePicker;
-import android.widget.Toast;
 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.location.LocationServices;
-import com.jackreacher.bkmemo.adapters.CustomSpinnerGroupAdapter;
-import com.jackreacher.bkmemo.adapters.CustomSpinnerPlaceAdapter;
 import com.jackreacher.bkmemo.adapters.MainPagerAdapter;
 import com.jackreacher.bkmemo.models.Event;
-import com.jackreacher.bkmemo.models.Group;
 import com.jackreacher.bkmemo.models.MyDatabase;
 import com.jackreacher.bkmemo.models.Place;
 
-import org.w3c.dom.Text;
-
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
@@ -198,7 +181,14 @@ public class EventAddActivity extends AppCompatActivity {
         int ID = mDatabase.addEvent(new Event(mName, mDescription,
                 tvTime.getText() + " " + tvDate.getText(), mPlaceId));
 
-        onBackPressed();
+        //onBackPressed();
+        Intent i = new Intent(this, MainActivity.class);
+        Bundle bundle = new Bundle();
+        bundle.putInt("numTab", MainPagerAdapter.EVENT_POS);
+        bundle.putInt("addEventResult", 1);
+        i.putExtra("bundle", bundle);
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
     }
 
     // On pressing the back button
@@ -236,6 +226,10 @@ public class EventAddActivity extends AppCompatActivity {
 
                 if (etName.getText().toString().length() == 0)
                     inputLayoutName.setError(getString(R.string.required_field));
+                else if(mDatabase.getEventsCountByName(mName) == 1) {
+                    inputLayoutName.setError(getString(R.string.item_existed));
+                    etName.setSelection(etName.length());
+                }
                 else
                     saveEvent();
 

@@ -137,4 +137,9 @@
         <item name="android:textAllCaps">true</item>
     </style>
 
+    <style name="Theme.AppCompat.Launcher">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+    </style>
+
 </resources>

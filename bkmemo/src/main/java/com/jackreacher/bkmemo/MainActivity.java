@@ -5,8 +5,10 @@ import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
@@ -20,6 +22,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -47,11 +50,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 	private MyDatabase mDatabase;
 	private FloatingActionButton fab2;
 	private ViewPager viewpager;
-	private FragmentManager fragmentManager;
 	private MainPagerAdapter pagerAdapter;
+	private RelativeLayout layoutMain;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		setTheme(R.style.Theme_MaterialSheetFab);
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
@@ -82,17 +86,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 		// Start the thread
 		t.start();
 
-		fragmentManager = getSupportFragmentManager();//Get Fragment Manager
-
 		setupActionBar();
 		setupDrawer();
 		setupFab();
 		setupTabs();
 
+		layoutMain = (RelativeLayout) findViewById(R.id.layoutMain);
+
 		Intent intent = getIntent();
 		Bundle bundle = intent.getBundleExtra("bundle");
-		if(bundle != null)
+		if(bundle != null) {
 			viewpager.setCurrentItem(bundle.getInt("numTab"));
+			if(bundle.getInt("updateEventResult") == 1)
+				Snackbar.make(layoutMain, R.string.event_updated, Snackbar.LENGTH_SHORT).show();
+			if(bundle.getInt("addEventResult") == 1)
+				Snackbar.make(layoutMain, R.string.event_added, Snackbar.LENGTH_SHORT).show();
+			if(bundle.getInt("updatePlaceResult") == 1)
+				Snackbar.make(layoutMain, R.string.place_updated, Snackbar.LENGTH_SHORT).show();
+			if(bundle.getInt("addPlaceResult") == 1)
+				Snackbar.make(layoutMain, R.string.place_added, Snackbar.LENGTH_SHORT).show();
+		}
 	}
 
 	@Override
@@ -263,16 +276,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 	@Override
 	public void onClick(View v) {
 		if(v.getId()==R.id.fab_sheet_item_location_auto) {
-			Intent intent = new Intent(v.getContext(), PlaceAddActivity.class);
-			startActivity(intent);
-			materialSheetFab.hideSheet();
+			if(mDatabase.getGroupsCount() == 0)
+				Snackbar.make(layoutMain, R.string.no_group, Snackbar.LENGTH_SHORT).show();
+			else {
+				Intent intent = new Intent(v.getContext(), PlaceAddActivity.class);
+				startActivity(intent);
+				materialSheetFab.hideSheet();
+			}
 		} else if(v.getId()==R.id.fab2) {
-			Intent intent = new Intent(v.getContext(), EventAddActivity.class);
-			startActivity(intent);
+			if(mDatabase.getPlacesCount() == 0)
+				Snackbar.make(layoutMain, R.string.no_place, Snackbar.LENGTH_SHORT).show();
+			else {
+				Intent intent = new Intent(v.getContext(), EventAddActivity.class);
+				startActivity(intent);
+			}
 		} else if(v.getId()==R.id.fab_sheet_item_location_hand) {
-			Intent intent = new Intent(v.getContext(), MapActivity.class);
-			startActivity(intent);
-			materialSheetFab.hideSheet();
+			if(mDatabase.getPlacesCount() == 0)
+				Snackbar.make(layoutMain, R.string.no_group, Snackbar.LENGTH_SHORT).show();
+			else {
+				Intent intent = new Intent(v.getContext(), MapActivity.class);
+				startActivity(intent);
+				materialSheetFab.hideSheet();
+			}
 		}
 	}
 

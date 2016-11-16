@@ -2,6 +2,7 @@ package com.jackreacher.bkmemo.adapters;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
@@ -10,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.jackreacher.bkmemo.R;
@@ -27,11 +29,13 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.ViewHolder
     private Event[] events;
     private MyDatabase mDatabase;
     private Context context;
+    private RelativeLayout layoutEvent;
 
-    public EventsAdapter(Context context, int numEvents) {
+    public EventsAdapter(Context context, int numEvents, RelativeLayout layoutEvent) {
         this.events = generateEvents(context, numEvents);
         this.mDatabase = new MyDatabase(context);
         this.context = context;
+        this.layoutEvent = layoutEvent;
     }
 
     @Override
@@ -81,6 +85,7 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.ViewHolder
                             public void onClick(DialogInterface dialog, int id) {
                                 mDatabase.deleteEvent(eventModel);
                                 updateList(context, mDatabase.getEventsCount());
+                                Snackbar.make(layoutEvent, R.string.event_deleted, Snackbar.LENGTH_SHORT).show();
                             }
                         })
                         .setNegativeButton(R.string.action_cancel, new DialogInterface.OnClickListener() {

@@ -4,6 +4,8 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.design.widget.Snackbar;
+import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.StaggeredGridLayoutManager;
@@ -15,7 +17,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.jackreacher.bkmemo.adapters.GroupsAdapter;
@@ -33,7 +37,8 @@ public class GroupActivity extends AppCompatActivity {
     private List<Integer> IDList;
     private GroupsAdapter mAdapter;
     private RecyclerViewEmptySupport recyclerView;
-    private ActionMode actionMode;
+    private RelativeLayout layoutGroup;
+    private TextInputLayout inputLayoutName;
 
     protected int getNumColumns() {
         return 2;
@@ -54,6 +59,7 @@ public class GroupActivity extends AppCompatActivity {
         for (int i = 0; i < mArray.size(); i++) {
             IDList.add(mArray.get(i).getId());
         }
+        layoutGroup = (RelativeLayout) findViewById(R.id.layoutGroup);
         setupActionBar();
         setupList();
     }
@@ -129,19 +135,10 @@ public class GroupActivity extends AppCompatActivity {
     private void showAddGroupDialogBox() {
         View view = getLayoutInflater().inflate(R.layout.custom_dialog, null);
         final EditText etGroupName = (EditText) view.findViewById(R.id.etGroupName);
+        inputLayoutName = (TextInputLayout) view.findViewById(R.id.inputLayoutGroupName);
         final AlertDialog customDialog = new AlertDialog.Builder(this)
                 .setView(view)
-                .setPositiveButton(getResources().getString(R.string.action_ok),
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                int groupId = mDatabase.addGroup(new Group(etGroupName.getText().toString()));
-                                if (groupId > 0) {
-                                    IDList.add(groupId);
-                                    mAdapter.updateList(getApplicationContext(), getNumItems());
-                                } else
-                                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.item_existed), Toast.LENGTH_SHORT).show();
-                            }
-                        })
+                .setPositiveButton(getResources().getString(R.string.action_ok), null)
                 .setNegativeButton(getResources().getString(R.string.action_cancel),
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
@@ -149,6 +146,27 @@ public class GroupActivity extends AppCompatActivity {
                             }
                         })
                 .create();
+        customDialog.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                Button b = customDialog.getButton(AlertDialog.BUTTON_POSITIVE);
+                b.setOnClickListener(new View.OnClickListener() {
+
+                    @Override
+                    public void onClick(View view) {
+                        if(mDatabase.getGroupsCountByName(etGroupName.getText().toString()) == 1)
+                            inputLayoutName.setError(getString(R.string.item_existed));
+                        else {
+                            int groupId = mDatabase.addGroup(new Group(etGroupName.getText().toString()));
+                            IDList.add(groupId);
+                            customDialog.dismiss();
+                            mAdapter.updateList(getApplicationContext(), getNumItems());
+                            Snackbar.make(layoutGroup, R.string.group_added, Snackbar.LENGTH_SHORT).show();
+                        }
+                    }
+                });
+            }
+        });
         customDialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
         customDialog.show();
         customDialog.getButton(AlertDialog.BUTTON_POSITIVE).setEnabled(false);
@@ -164,6 +182,7 @@ public class GroupActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable editable) {
                 customDialog.getButton(AlertDialog.BUTTON_POSITIVE).setEnabled(etGroupName.getText().length() > 0);
+                inputLayoutName.setError(null);
             }
         });
     }
@@ -172,22 +191,13 @@ public class GroupActivity extends AppCompatActivity {
         final int mPosition = position;
         View view = getLayoutInflater().inflate(R.layout.custom_dialog, null);
         final EditText etGroupName = (EditText) view.findViewById(R.id.etGroupName);
+        inputLayoutName = (TextInputLayout) view.findViewById(R.id.inputLayoutGroupName);
         final Group group = mDatabase.getGroup(mClickID);
         etGroupName.setText(group.getName());
         etGroupName.setSelection(etGroupName.length());
         final AlertDialog customDialog = new AlertDialog.Builder(this)
                 .setView(view)
-                .setPositiveButton(getResources().getString(R.string.action_ok),
-                        new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                group.setName(etGroupName.getText().toString());
-                                int groupId = mDatabase.updateGroup(group);
-                                if (groupId > 0)
-                                    mAdapter.updateList(getApplicationContext(), getNumItems());
-                                else
-                                    Toast.makeText(getApplicationContext(), getResources().getString(R.string.item_existed), Toast.LENGTH_SHORT).show();
-                            }
-                        })
+                .setPositiveButton(getResources().getString(R.string.action_ok), null)
                 .setNegativeButton(getResources().getString(R.string.action_cancel),
                         new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int id) {
@@ -195,6 +205,27 @@ public class GroupActivity extends AppCompatActivity {
                             }
                         })
                 .create();
+        customDialog.setOnShowListener(new DialogInterface.OnShowListener() {
+            @Override
+            public void onShow(DialogInterface dialogInterface) {
+                Button b = customDialog.getButton(AlertDialog.BUTTON_POSITIVE);
+                b.setOnClickListener(new View.OnClickListener() {
+
+                    @Override
+                    public void onClick(View view) {
+                        if (mDatabase.getGroupsCountByName(group, etGroupName.getText().toString()) == 0) {
+                            group.setName(etGroupName.getText().toString());
+                            mDatabase.updateGroup(group);
+                            customDialog.dismiss();
+                            mAdapter.updateList(getApplicationContext(), getNumItems());
+                            Snackbar.make(layoutGroup, R.string.group_updated, Snackbar.LENGTH_SHORT).show();
+                        }
+                        else
+                            inputLayoutName.setError(getString(R.string.item_existed));
+                    }
+                });
+            }
+        });
         customDialog.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_VISIBLE);
         customDialog.show();
         etGroupName.addTextChangedListener(new TextWatcher() {
@@ -209,6 +240,7 @@ public class GroupActivity extends AppCompatActivity {
             @Override
             public void afterTextChanged(Editable editable) {
                 customDialog.getButton(AlertDialog.BUTTON_POSITIVE).setEnabled(etGroupName.getText().length() > 0);
+                inputLayoutName.setError(null);
             }
         });
     }

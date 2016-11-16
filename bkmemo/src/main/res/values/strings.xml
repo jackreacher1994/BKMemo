@@ -52,6 +52,15 @@
     <string name="input_location">Nhập địa điểm</string>
     <string name="selected_count">%1$s mục đã chọn</string>
     <string name="required_field">Không được để trống trường này</string>
+    <string name="group_added">Đã thêm nhóm</string>
+    <string name="group_updated">Đã cập nhật nhóm</string>
+    <string name="place_added">Đã thêm địa điểm</string>
+    <string name="place_updated">Đã cập nhật địa điểm</string>
+    <string name="event_added">Đã thêm cuộc hẹn</string>
+    <string name="event_updated">Đã cập nhật cuộc hẹn</string>
+    <string name="event_deleted">Đã xóa cuộc hẹn</string>
+    <string name="no_group">Bạn chưa tạo nhóm nào</string>
+    <string name="no_place">Bạn chưa tạo địa điểm nào</string>
     <string name="default_group">Chung</string>
     <string name="no_geocoder_available">No geocoder available</string>
     <string name="address_found">Address found</string>
